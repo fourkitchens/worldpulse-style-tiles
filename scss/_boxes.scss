@@ -15,6 +15,10 @@
     &.high {
       padding-bottom: 50%;
     }
+
+    &.low {
+      padding-bottom: 12.5%;
+    }
   }
 
   &.half {
@@ -24,6 +28,10 @@
     &.high {
       padding-bottom: 50%;
     }
+
+    &.low {
+      padding-bottom: 12.5%;
+    }
   }
 
   &.quarter {
@@ -32,6 +40,10 @@
 
     &.high {
       padding-bottom: 50%;
+    }
+
+    &.low {
+      padding-bottom: 12.5%;
     }
   }
 
@@ -50,8 +62,10 @@
     @include border-radius(3px);
     @include box-shadow(0px 0px 5px rgba(0,0,0,0.125));
 
-    @include transition(opacity 0.15s ease);
-    &:hover { @include opacity(0.8); }
+    &.hover {
+      @include transition(opacity 0.15s ease);
+      &:hover { @include opacity(0.8); }
+    }
 
     &.image {
       background-size: cover;

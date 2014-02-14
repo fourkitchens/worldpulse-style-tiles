@@ -28,19 +28,18 @@ body {
 .set, .banner {
   @include clearfix();
 
-  max-width: 1000px;
-  min-width: 700px;
+  width: 1000px;
   margin: 0 auto;
 
   border-top: 1px solid #f6f6f6;
   &:first-child { border-top: 0; }
   border-bottom: 1px solid #d6d6d6;
   &:last-child { border-bottom: 0; }
-  padding: 25px 0;
+  padding: 50px 0;
 }
 
 .banner {
-  padding: 50px 10px 25px 10px;
+  padding: 100px 10px 25px 10px;
   h2 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 35px;
@@ -48,9 +47,13 @@ body {
     @include text-shadow(1px 1px 0 #f0f0f0);
 
     small {
-      font-size: 20px;
+      font-size: 24px;
       color: #444;
     }
+  }
+
+  &:first-child {
+    padding-top: 50px;
   }
 }
 
@@ -59,4 +62,8 @@ body {
   // display: none;
   clear: both;
   position: relative;
+}
+
+em {
+  font-style: italic;
 }

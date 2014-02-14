@@ -20,3 +20,28 @@
   background-position: top center;
   background-color: white;
 }
+
+@each $chart in ("01-illustrative", "02-photographic") {
+  $chart-id: '#chart-' + $chart;
+  $chart-img: $chart + '.png';
+  #{$chart-id} {
+    background-color: white;
+    background-image: image-url("charts/" + $chart-img);
+    background-position: 15px center;
+    background-size: auto 95%;
+  }
+}
+
+@each $chart in ("03-bright", "04-bold", "05-clean", "06-confident", "07-corporate", "08-minimal", "09-trendy", "10-flat") {
+  $chart-id: '#chart-' + $chart;
+  $chart-img: $chart + '.png';
+  #{$chart-id} {
+    background-color: white;
+    background-image: image-url("charts/" + $chart-img);
+    background-size: contain;
+
+    .quarter & {
+      background-size: 95% auto;
+    }
+  }
+}

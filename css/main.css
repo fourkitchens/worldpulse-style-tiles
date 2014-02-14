@@ -28,13 +28,17 @@ header h1 { display: block; margin: 0 auto; max-width: 900px; font-size: 22px; f
 .box { position: relative; height: 0; padding-bottom: 100%; float: left; }
 .box.full { width: 100%; padding-bottom: 25%; clear: both; }
 .box.full.high { padding-bottom: 50%; }
+.box.full.low { padding-bottom: 12.5%; }
 .box.half { width: 50%; padding-bottom: 25%; }
 .box.half.high { padding-bottom: 50%; }
+.box.half.low { padding-bottom: 12.5%; }
 .box.quarter { width: 25%; padding-bottom: 25%; }
 .box.quarter.high { padding-bottom: 50%; }
+.box.quarter.low { padding-bottom: 12.5%; }
 .box.eighth { width: 12.5%; padding-bottom: 12.5%; }
-.box div { position: absolute; top: 5px; right: 5px; bottom: 5px; left: 5px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.125); -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.125); box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.125); -webkit-transition: opacity 0.15s ease; -moz-transition: opacity 0.15s ease; -ms-transition: opacity 0.15s ease; -o-transition: opacity 0.15s ease; transition: opacity 0.15s ease; }
-.box div:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80); opacity: 0.8; }
+.box div { position: absolute; top: 5px; right: 5px; bottom: 5px; left: 5px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.125); -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.125); box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.125); }
+.box div.hover { -webkit-transition: opacity 0.15s ease; -moz-transition: opacity 0.15s ease; -ms-transition: opacity 0.15s ease; -o-transition: opacity 0.15s ease; transition: opacity 0.15s ease; }
+.box div.hover:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80); opacity: 0.8; }
 .box div.image { background-size: cover; background-position: center center; background-repeat: no-repeat; }
 .box div.text, .box div.adjective, .box div.title { padding: 10px; text-align: center; background: #F6F6F6; color: #333; }
 .box div.text > span, .box div.adjective > span, .box div.title > span { display: block; position: absolute; top: 50%; line-height: 1.25em; margin-top: -.75em; left: 0; right: 0; }
@@ -110,19 +114,50 @@ header h1 { display: block; margin: 0 auto; max-width: 900px; font-size: 22px; f
 
 #site-c, #site-bg, #site-cfc, #site-ew, #site-fbh, #site-gpi, #site-gpj, #site-osf, #site-times, #site-vv { background-position: top center; background-color: white; }
 
+#chart-01-illustrative { background-color: white; background-image: url('/gfx/charts/01-illustrative.png?1392415665'); background-position: 15px center; background-size: auto 95%; }
+
+#chart-02-photographic { background-color: white; background-image: url('/gfx/charts/02-photographic.png?1392415677'); background-position: 15px center; background-size: auto 95%; }
+
+#chart-03-bright { background-color: white; background-image: url('/gfx/charts/03-bright.png?1392415692'); background-size: contain; }
+.quarter #chart-03-bright { background-size: 95% auto; }
+
+#chart-04-bold { background-color: white; background-image: url('/gfx/charts/04-bold.png?1392415699'); background-size: contain; }
+.quarter #chart-04-bold { background-size: 95% auto; }
+
+#chart-05-clean { background-color: white; background-image: url('/gfx/charts/05-clean.png?1392415705'); background-size: contain; }
+.quarter #chart-05-clean { background-size: 95% auto; }
+
+#chart-06-confident { background-color: white; background-image: url('/gfx/charts/06-confident.png?1392415713'); background-size: contain; }
+.quarter #chart-06-confident { background-size: 95% auto; }
+
+#chart-07-corporate { background-color: white; background-image: url('/gfx/charts/07-corporate.png?1392415721'); background-size: contain; }
+.quarter #chart-07-corporate { background-size: 95% auto; }
+
+#chart-08-minimal { background-color: white; background-image: url('/gfx/charts/08-minimal.png?1392415884'); background-size: contain; }
+.quarter #chart-08-minimal { background-size: 95% auto; }
+
+#chart-09-trendy { background-color: white; background-image: url('/gfx/charts/09-trendy.png?1392415895'); background-size: contain; }
+.quarter #chart-09-trendy { background-size: 95% auto; }
+
+#chart-10-flat { background-color: white; background-image: url('/gfx/charts/10-flat.png?1392418996'); background-size: contain; }
+.quarter #chart-10-flat { background-size: 95% auto; }
+
 body { background: #e0e0e0; font-family: 'Open Sans'; }
 body.transition { -webkit-transition: background-color 1s ease; -moz-transition: background-color 1s ease; -ms-transition: background-color 1s ease; -o-transition: background-color 1s ease; transition: background-color 1s ease; }
 
-.set, .banner { /* for IE 6/7 */ *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif"); /* non-JS fallback */ *zoom: 1; max-width: 1000px; min-width: 700px; margin: 0 auto; border-top: 1px solid #f6f6f6; border-bottom: 1px solid #d6d6d6; padding: 25px 0; }
+.set, .banner { /* for IE 6/7 */ *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif"); /* non-JS fallback */ *zoom: 1; width: 1000px; margin: 0 auto; border-top: 1px solid #f6f6f6; border-bottom: 1px solid #d6d6d6; padding: 50px 0; }
 .set:before, .set:after, .banner:before, .banner:after { content: ""; display: table; }
 .set:after, .banner:after { clear: both; }
 .set:first-child, .banner:first-child { border-top: 0; }
 .set:last-child, .banner:last-child { border-bottom: 0; }
 
-.banner { padding: 50px 10px 25px 10px; }
+.banner { padding: 100px 10px 25px 10px; }
 .banner h2 { font-family: 'Open Sans Condensed', sans-serif; font-size: 35px; color: #333; text-shadow: 1px 1px 0 #f0f0f0; }
-.banner h2 small { font-size: 20px; color: #444; }
+.banner h2 small { font-size: 24px; color: #444; }
+.banner:first-child { padding-top: 50px; }
 
 .collapsed { /* for IE 6/7 */ *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif"); /* non-JS fallback */ *zoom: 1; clear: both; position: relative; }
 .collapsed:before, .collapsed:after { content: ""; display: table; }
 .collapsed:after { clear: both; }
+
+em { font-style: italic; }
