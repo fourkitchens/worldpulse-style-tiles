@@ -1,0 +1,22 @@
+@each $box in (
+  "morocco-1", "morocco-2", "morocco-3", "morocco-4",
+  "park-1", "park-2", "park-3", "park-4", "park-5", "park-6",
+  "nyc-1", "nyc-2", "nyc-3", "nyc-4", "nyc-5", "nyc-6",
+  "home-1", "home-2", "home-3", "home-4",
+  "site-c", "site-bg", "site-cfc", "site-ew", "site-fbh", "site-gpi", "site-gpj", "site-osf", "site-times", "site-vv"
+) {
+  $box-id: '#' + $box;
+  $box-img: $box + '.png';
+  #{$box-id} {
+    background-image: image-url($box-img);
+  }
+}
+
+#park-3, #park-4, #park-5, #nyc-3, #home-1, #home-3, #gather-2, #gather-3 {
+  background-position: bottom center;
+}
+
+#site-c, #site-bg, #site-cfc, #site-ew, #site-fbh, #site-gpi, #site-gpj, #site-osf, #site-times, #site-vv {
+  background-position: top center;
+  background-color: white;
+}

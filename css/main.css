@@ -1,0 +1,128 @@
+/* Welcome to Compass. In this file you should write your main styles. (or centralize your imports) Import this file using the following HTML or equivalent: <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; *behavior: url('/css/../behaviors/box-sizing/boxsizing.php'); }
+
+img, video { max-width: 100%; height: auto; }
+
+body { margin-top: 30px; }
+
+header { position: fixed; z-index: 50; top: 0; left: 0; right: 0; padding: 5px 10px; background: #222; color: #DDD; }
+header h1 { display: block; margin: 0 auto; max-width: 900px; font-size: 22px; font-weight: 400; }
+
+.box { position: relative; height: 0; padding-bottom: 100%; float: left; }
+.box.full { width: 100%; padding-bottom: 25%; clear: both; }
+.box.full.high { padding-bottom: 50%; }
+.box.half { width: 50%; padding-bottom: 25%; }
+.box.half.high { padding-bottom: 50%; }
+.box.quarter { width: 25%; padding-bottom: 25%; }
+.box.quarter.high { padding-bottom: 50%; }
+.box.eighth { width: 12.5%; padding-bottom: 12.5%; }
+.box div { position: absolute; top: 5px; right: 5px; bottom: 5px; left: 5px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.125); -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.125); box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.125); -webkit-transition: opacity 0.15s ease; -moz-transition: opacity 0.15s ease; -ms-transition: opacity 0.15s ease; -o-transition: opacity 0.15s ease; transition: opacity 0.15s ease; }
+.box div:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80); opacity: 0.8; }
+.box div.image { background-size: cover; background-position: center center; background-repeat: no-repeat; }
+.box div.text, .box div.adjective, .box div.title { padding: 10px; text-align: center; background: #F6F6F6; color: #333; }
+.box div.text > span, .box div.adjective > span, .box div.title > span { display: block; position: absolute; top: 50%; line-height: 1.25em; margin-top: -.75em; left: 0; right: 0; }
+.box div.text > span.multiline, .box div.adjective > span.multiline, .box div.title > span.multiline { margin-top: -1.5em; }
+@media (max-width: 900px) { .box div.text, .box div.adjective, .box div.title { font-family: 'Open Sans Condensed'; } }
+.box div.adjective { font-size: 12px; text-transform: uppercase; }
+.box div.title { background-color: #efefef; color: #666; font-family: 'Open Sans Condensed'; font-size: 24px; letter-spacing: 2px; text-transform: uppercase; -webkit-transition: background-color 0.2s ease; -moz-transition: background-color 0.2s ease; -ms-transition: background-color 0.2s ease; -o-transition: background-color 0.2s ease; transition: background-color 0.2s ease; }
+.set.open .box div.title { background-color: #ffffff; color: #333; }
+.box div.text { line-height: 1.25; }
+.box div.text > span { left: 10px; right: 10px; }
+
+#morocco-1 { background-image: url('/gfx/morocco-1.png?1392320347'); }
+
+#morocco-2 { background-image: url('/gfx/morocco-2.png?1392320876'); }
+
+#morocco-3 { background-image: url('/gfx/morocco-3.png?1392321029'); }
+
+#morocco-4 { background-image: url('/gfx/morocco-4.png?1392332598'); }
+
+#park-1 { background-image: url('/gfx/park-1.png?1392322947'); }
+
+#park-2 { background-image: url('/gfx/park-2.png?1392322967'); }
+
+#park-3 { background-image: url('/gfx/park-3.png?1392322980'); }
+
+#park-4 { background-image: url('/gfx/park-4.png?1392322991'); }
+
+#park-5 { background-image: url('/gfx/park-5.png?1392323002'); }
+
+#park-6 { background-image: url('/gfx/park-6.png?1392333596'); }
+
+#nyc-1 { background-image: url('/gfx/nyc-1.png?1392324091'); }
+
+#nyc-2 { background-image: url('/gfx/nyc-2.png?1392324105'); }
+
+#nyc-3 { background-image: url('/gfx/nyc-3.png?1392324114'); }
+
+#nyc-4 { background-image: url('/gfx/nyc-4.png?1392324203'); }
+
+#nyc-5 { background-image: url('/gfx/nyc-5.png?1392325316'); }
+
+#nyc-6 { background-image: url('/gfx/nyc-6.png?1392325335'); }
+
+#home-1 { background-image: url('/gfx/home-1.png?1392325522'); }
+
+#home-2 { background-image: url('/gfx/home-2.png?1392325532'); }
+
+#home-3 { background-image: url('/gfx/home-3.png?1392325543'); }
+
+#home-4 { background-image: url('/gfx/home-4.png?1392325692'); }
+
+#site-c { background-image: url('/gfx/site-c.png?1392336988'); }
+
+#site-bg { background-image: url('/gfx/site-bg.png?1392336811'); }
+
+#site-cfc { background-image: url('/gfx/site-cfc.png?1392336931'); }
+
+#site-ew { background-image: url('/gfx/site-ew.png?1392337024'); }
+
+#site-fbh { background-image: url('/gfx/site-fbh.png?1392337109'); }
+
+#site-gpi { background-image: url('/gfx/site-gpi.png?1392336892'); }
+
+#site-gpj { background-image: url('/gfx/site-gpj.png?1392336863'); }
+
+#site-osf { background-image: url('/gfx/site-osf.png?1392336767'); }
+
+#site-times { background-image: url('/gfx/site-times.png?1392336784'); }
+
+#site-vv { background-image: url('/gfx/site-vv.png?1392336834'); }
+
+#park-3, #park-4, #park-5, #nyc-3, #home-1, #home-3, #gather-2, #gather-3 { background-position: bottom center; }
+
+#site-c, #site-bg, #site-cfc, #site-ew, #site-fbh, #site-gpi, #site-gpj, #site-osf, #site-times, #site-vv { background-position: top center; background-color: white; }
+
+body { background: #e0e0e0; font-family: 'Open Sans'; }
+body.transition { -webkit-transition: background-color 1s ease; -moz-transition: background-color 1s ease; -ms-transition: background-color 1s ease; -o-transition: background-color 1s ease; transition: background-color 1s ease; }
+
+.set, .banner { /* for IE 6/7 */ *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif"); /* non-JS fallback */ *zoom: 1; max-width: 1000px; min-width: 700px; margin: 0 auto; border-top: 1px solid #f6f6f6; border-bottom: 1px solid #d6d6d6; padding: 25px 0; }
+.set:before, .set:after, .banner:before, .banner:after { content: ""; display: table; }
+.set:after, .banner:after { clear: both; }
+.set:first-child, .banner:first-child { border-top: 0; }
+.set:last-child, .banner:last-child { border-bottom: 0; }
+
+.banner { padding: 50px 10px 25px 10px; }
+.banner h2 { font-family: 'Open Sans Condensed', sans-serif; font-size: 35px; color: #333; text-shadow: 1px 1px 0 #f0f0f0; }
+.banner h2 small { font-size: 20px; color: #444; }
+
+.collapsed { /* for IE 6/7 */ *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif"); /* non-JS fallback */ *zoom: 1; clear: both; position: relative; }
+.collapsed:before, .collapsed:after { content: ""; display: table; }
+.collapsed:after { clear: both; }

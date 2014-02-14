@@ -1,0 +1,23 @@
+body {
+  margin-top: 30px;
+}
+
+header {
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 5px 10px;
+
+  background: #222;
+  color: #DDD;
+
+  h1 {
+    display: block;
+    margin: 0 auto;
+    max-width: 900px;
+    font-size: 22px;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,118 @@
+.box {
+  position: relative;
+
+  height: 0;
+  padding-bottom: 100%;
+
+  float: left;
+
+
+  &.full {
+    width: 100%;
+    padding-bottom: 25%;
+    clear: both;
+
+    &.high {
+      padding-bottom: 50%;
+    }
+  }
+
+  &.half {
+    width: 50%;
+    padding-bottom: 25%;
+
+    &.high {
+      padding-bottom: 50%;
+    }
+  }
+
+  &.quarter {
+    width: 25%;
+    padding-bottom: 25%;
+
+    &.high {
+      padding-bottom: 50%;
+    }
+  }
+
+  &.eighth {
+    width: 12.5%;
+    padding-bottom: 12.5%;
+  }
+
+  div {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+
+    @include border-radius(3px);
+    @include box-shadow(0px 0px 5px rgba(0,0,0,0.125));
+
+    @include transition(opacity 0.15s ease);
+    &:hover { @include opacity(0.8); }
+
+    &.image {
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+
+    &.text, &.adjective, &.title {
+      padding: 10px;
+      text-align: center;
+      background: #F6F6F6;
+      color: #333;
+
+      > span {
+        display: block;
+        position: absolute;
+        top: 50%;
+        line-height: 1.25em;
+        margin-top: -.75em;
+        left: 0;
+        right: 0;
+
+
+        &.multiline {
+          margin-top: -1.5em;
+        }
+      }
+
+      @media (max-width: 900px) {
+        font-family: 'Open Sans Condensed';
+      }
+    }
+
+    &.adjective {
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    &.title {
+      background-color: #efefef;
+      color: #666;
+      font-family: 'Open Sans Condensed';
+      font-size: 24px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+
+      @include transition(background-color .2s ease);
+
+      .set.open & {
+        background-color: #ffffff;
+        color: #333;
+      }
+    }
+
+    &.text {
+      line-height: 1.25;
+      > span {
+        left: 10px;
+        right: 10px;
+      }
+    }
+  }
+
+}
