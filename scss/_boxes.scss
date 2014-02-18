@@ -2,54 +2,48 @@
   position: relative;
 
   height: 0;
-  padding-bottom: 100%;
+  padding-bottom: 25%;
 
   float: left;
 
 
   &.full {
     width: 100%;
-    padding-bottom: 25%;
     clear: both;
+  }
 
-    &.high {
-      padding-bottom: 50%;
-    }
-
-    &.low {
-      padding-bottom: 12.5%;
-    }
+  &.thq {
+    width: 75%;
   }
 
   &.half {
     width: 50%;
-    padding-bottom: 25%;
-
-    &.high {
-      padding-bottom: 50%;
-    }
-
-    &.low {
-      padding-bottom: 12.5%;
-    }
   }
 
   &.quarter {
     width: 25%;
-    padding-bottom: 25%;
-
-    &.high {
-      padding-bottom: 50%;
-    }
-
-    &.low {
-      padding-bottom: 12.5%;
-    }
   }
 
   &.eighth {
     width: 12.5%;
+    // These are all tiny:
     padding-bottom: 12.5%;
+  }
+
+  &.high {
+    padding-bottom: 50%;
+  }
+
+  &.mid {
+    padding-bottom: 37.5%;
+  }
+
+  &.low {
+    padding-bottom: 12.5%;
+  }
+
+  &.right {
+    float: right;
   }
 
   div {
@@ -117,6 +111,10 @@
       .set.open & {
         background-color: #ffffff;
         color: #333;
+      }
+
+      small {
+        font-size: 14px;
       }
     }
 

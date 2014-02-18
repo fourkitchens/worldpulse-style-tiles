@@ -33,6 +33,7 @@
 }
 
 @each $chart in ("03-bright", "04-bold", "05-clean", "06-confident", "07-corporate", "08-minimal", "09-trendy", "10-flat") {
+  // These have to be prefixed with 'chart-' because IDs/classes can't start with numbers
   $chart-id: '#chart-' + $chart;
   $chart-img: $chart + '.png';
   #{$chart-id} {
@@ -42,6 +43,36 @@
 
     .quarter & {
       background-size: 95% auto;
+    }
+  }
+}
+
+@each $swatch in ("banners", "blogpost-1", "blogpost-2", "carousel", "dashboard-detail", "dashboard-sketch", "event", "features", "footer", "header-1", "header-2", "icons", "index", "leaderboard", "megamenu", "profile-detail", "profile", "section-hero", "signup", "popular", "steps", "teaser-1", "teaser-2") {
+  $swatch-id: '#' + $swatch;
+  $swatch-img: $swatch + '.png';
+  #{$swatch-id} {
+    background-color: white;
+    background-image: image-url("swatches/" + $swatch-img);
+    background-size: contain;
+
+    &.cover {
+      background-size: cover;
+    }
+
+    &.bgtop {
+      background-position: center top;
+    }
+
+    &.bgbottom {
+      background-position: center bottom;
+    }
+
+    &.bgleft {
+      background-position: left center;
+    }
+
+    &.bgright {
+      background-position: right center;
     }
   }
 }

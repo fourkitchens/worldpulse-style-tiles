@@ -15,9 +15,36 @@ header {
 
   h1 {
     display: block;
+    float: left;
     margin: 0 auto;
-    max-width: 900px;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 22px;
     font-weight: 400;
+  }
+
+  ul {
+    float: right;
+    margin-top: 1px;
+
+    li {
+      display: inline;
+      &:first-child a { border-left: 0; }
+    }
+
+    a {
+      display: inline-block;
+      text-transform: uppercase;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 11px;
+      text-decoration: none;
+
+      padding: 0 2px 0 5px;
+      border-left: 1px solid #666;
+
+      color: #fff;
+      &:hover {
+        color: #0066FF;
+      }
+    }
   }
 }
