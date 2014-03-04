@@ -55,46 +55,6 @@ header ul a:hover { color: #0066FF; }
 .box div.text { line-height: 1.25; }
 .box div.text > span { left: 10px; right: 10px; }
 
-#morocco-1 { background-image: url('/gfx/morocco-1.png?1392320347'); }
-
-#morocco-2 { background-image: url('/gfx/morocco-2.png?1392320876'); }
-
-#morocco-3 { background-image: url('/gfx/morocco-3.png?1392321029'); }
-
-#morocco-4 { background-image: url('/gfx/morocco-4.png?1392332598'); }
-
-#park-1 { background-image: url('/gfx/park-1.png?1392322947'); }
-
-#park-2 { background-image: url('/gfx/park-2.png?1392322967'); }
-
-#park-3 { background-image: url('/gfx/park-3.png?1392322980'); }
-
-#park-4 { background-image: url('/gfx/park-4.png?1392322991'); }
-
-#park-5 { background-image: url('/gfx/park-5.png?1392323002'); }
-
-#park-6 { background-image: url('/gfx/park-6.png?1392333596'); }
-
-#nyc-1 { background-image: url('/gfx/nyc-1.png?1392324091'); }
-
-#nyc-2 { background-image: url('/gfx/nyc-2.png?1392324105'); }
-
-#nyc-3 { background-image: url('/gfx/nyc-3.png?1392324114'); }
-
-#nyc-4 { background-image: url('/gfx/nyc-4.png?1392324203'); }
-
-#nyc-5 { background-image: url('/gfx/nyc-5.png?1392325316'); }
-
-#nyc-6 { background-image: url('/gfx/nyc-6.png?1392325335'); }
-
-#home-1 { background-image: url('/gfx/home-1.png?1392325522'); }
-
-#home-2 { background-image: url('/gfx/home-2.png?1392325532'); }
-
-#home-3 { background-image: url('/gfx/home-3.png?1392325543'); }
-
-#home-4 { background-image: url('/gfx/home-4.png?1392325692'); }
-
 #site-c { background-image: url('/gfx/site-c.png?1392336988'); }
 
 #site-bg { background-image: url('/gfx/site-bg.png?1392336811'); }
@@ -114,8 +74,6 @@ header ul a:hover { color: #0066FF; }
 #site-times { background-image: url('/gfx/site-times.png?1392336784'); }
 
 #site-vv { background-image: url('/gfx/site-vv.png?1392336834'); }
-
-#park-3, #park-4, #park-5, #nyc-3, #home-1, #home-3, #gather-2, #gather-3 { background-position: bottom center; }
 
 #site-c, #site-bg, #site-cfc, #site-ew, #site-fbh, #site-gpi, #site-gpj, #site-osf, #site-times, #site-vv { background-position: top center; background-color: white; }
 
