@@ -34,6 +34,10 @@
     padding-bottom: 50%;
   }
 
+  &.xhigh {
+    padding-bottom: 125%;
+  }
+
   &.mid {
     padding-bottom: 37.5%;
   }
@@ -46,7 +50,7 @@
     float: right;
   }
 
-  div {
+  > div {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -65,6 +69,10 @@
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
+    }
+
+    &.content {
+      overflow: hidden;
     }
 
     &.text, &.adjective, &.title {

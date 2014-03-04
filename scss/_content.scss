@@ -1,0 +1,107 @@
+.content-wrap {
+  @import 'normalize';
+
+  line-height: 1.5;
+  #{headings()} { line-height: 1.15; }
+
+  .breadcrumb > div {
+    display: inline-block;
+  }
+
+  .heading, .body {
+    padding: 25px;
+  }
+
+  .author {
+    float: right;
+    padding-left: 10px;
+  }
+
+  li {
+    list-style: disc outside;
+  }
+
+  .author + p, p:first-child {
+    margin-top: 0;
+  }
+
+  blockquote {
+    margin: 1em 0;
+    border-left: 4px solid white;
+    padding: 0 40px 0 36px;
+
+    cite {
+      display: block;
+      text-align: right;
+      font-size: 0.875em;
+      font-style: italic;
+    }
+  }
+}
+
+.content {
+  background: white;
+
+  &#metropolis {
+    padding-left: 25px;
+    padding-right: 25px;
+
+    .body, .heading {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    color: #555;
+    font-family: 'Whitney SSm A', 'Whitney SSm B';
+
+    .breadcrumb {
+      font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 400; font-style: normal;
+      text-transform: uppercase;
+      font-size: 0.75em;
+
+      .sep {
+        color: #999;
+      }
+    }
+
+    .body {
+      border-top: 3px solid #EEE;
+    }
+
+    #{headings()} {
+      font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 700; font-style: normal;
+      color: rgb(52, 36, 84);
+    }
+
+    h1 {
+      margin-left: 2em;
+      margin-right: 2em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .date {
+      font-style: italic;
+      font-size: 0.875em;
+      text-align: center;
+    }
+
+    a {
+      color: darken(rgb(99, 165, 241), 20%);
+      text-decoration: none;
+      &:hover { text-decoration: underline; }
+      &:visited, &.visited { color: rgb(99, 165, 241); }
+    }
+
+    blockquote {
+      border-left-color: rgba(254, 139, 3, 0.3);
+      cite { color: rgb(254, 139, 3); }
+    }
+
+    .author {
+      background: #eee;
+      padding: 10px;
+      border-left: 2px solid #ccc;
+      margin-left: 10px;
+    }
+  }
+}

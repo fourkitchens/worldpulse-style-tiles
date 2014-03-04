@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>World Pulse: Building Style Tiles</title>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300|Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6795652/718384/css/fonts.css" />
   <link href="css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body class="transition">
@@ -22,22 +23,27 @@
       <h2>Mood Boards <small>Colors, adjectives, imagery interpreted from &ldquo;World Pulse as a Place&rdquo; responses</small></h2>
     </div>
     <div class="set">
-      <div class="box half"><div class="title"><span>Metropolis</span></div></div>
-      <div class="box half"><div class="image" id="nyc-1">&nbsp;</div></div>
-      <div class="collapsed">
-        <div class="box eighth"><div class="color" style="background-color: #63a5f1;">&nbsp;</div></div>
-        <div class="box eighth"><div class="color" style="background-color: #a8a69a;">&nbsp;</div></div>
-        <div class="box eighth"><div class="color" style="background-color: #383245;">&nbsp;</div></div>
-        <div class="box eighth"><div class="color" style="background-color: #fe8b03;">&nbsp;</div></div>
-        <div class="box eighth"><div class="adjective"><span>Diverse</span></div></div>
-        <div class="box eighth"><div class="adjective"><span>Pulse</span></div></div>
-        <div class="box eighth"><div class="adjective"><span>Exchange</span></div></div>
-        <div class="box eighth"><div class="adjective"><span>Instigate</span></div></div>
-        <div class="box quarter"><div class="image" id="nyc-3">&nbsp;</div></div>
-        <div class="box quarter"><div class="image" id="nyc-4">&nbsp;</div></div>
-        <div class="box quarter"><div class="image" id="nyc-5">&nbsp;</div></div>
-        <div class="box quarter"><div class="image" id="nyc-6">&nbsp;</div></div>
-      </div>
+      <div class="box quarter"><div class="title"><span>Metropolis<br /><small>Gotham &amp; Whitney</small></span></div></div>
+      <div class="box thq xhigh right"><div class="content" id="metropolis">
+        <?php
+          $user = new stdClass();
+          $user->avatar = 'https://s3.amazonaws.com/uifaces/faces/twitter/divya/128.jpg';
+          $user->name = 'Divya Manian';
+          $user->nation = '';
+
+          include('copy.inc.php');
+        ?>
+      </div></div>
+      <div class="box eighth"><div class="color" style="background-color: #63a5f1;">&nbsp;</div></div>
+      <div class="box eighth"><div class="color" style="background-color: #a8a69a;">&nbsp;</div></div>
+      <div class="box eighth"><div class="color" style="background-color: #342454;">&nbsp;</div></div>
+      <div class="box eighth"><div class="color" style="background-color: #fe8b03;">&nbsp;</div></div>
+      <div class="box eighth"><div class="adjective"><span>Diverse</span></div></div>
+      <div class="box eighth"><div class="adjective"><span>Pulse</span></div></div>
+      <div class="box eighth"><div class="adjective"><span>Exchange</span></div></div>
+      <div class="box eighth"><div class="adjective"><span>Instigate</span></div></div>
+      <div class="box quarter"><div class="image" id="nyc-3">&nbsp;</div></div>
+      <div class="box quarter"><div class="image" id="nyc-4">&nbsp;</div></div>
     </div>
 
     <div class="set">
@@ -228,12 +234,8 @@
   <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
   <script type="text/javascript"><!--
     (jQuery(document).ready(function($){
-      $('.set > .box').click(function(){
-        if ( $(this).parents('.set').hasClass('open') ) {
-          $(this).parents('.set').removeClass('open').find('.collapsed').slideUp();
-        } else {
-          $(this).parents('.set').addClass('open').find('.collapsed').slideDown();
-        }
+      $('.color').click(function(){
+        window.prompt('Color as RGB', $(this).css('background-color'));
       });
 
       $('header ul a').click(function(e){
