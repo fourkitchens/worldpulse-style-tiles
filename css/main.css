@@ -356,12 +356,39 @@ em { font-style: italic; }
 .content#metropolis .breadcrumb { font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 400; font-style: normal; text-transform: uppercase; font-size: 0.75em; }
 .content#metropolis .breadcrumb .sep { color: #999; }
 .content#metropolis .body { border-top: 3px solid #EEE; }
-.content#metropolis h1, .content#metropolis h2, .content#metropolis h3, .content#metropolis h4, .content#metropolis h5, .content#metropolis h6 { font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 700; font-style: normal; color: #342454; }
-.content#metropolis h1 { margin-left: 2em; margin-right: 2em; text-align: center; text-transform: uppercase; }
+.content#metropolis h1, .content#metropolis h2, .content#metropolis h3, .content#metropolis h4, .content#metropolis h5, .content#metropolis h6 { font-family: 'Gotham SSm A', 'Gotham SSm B'; font-style: normal; color: #342454; }
+.content#metropolis h1, .content#metropolis h2 { font-weight: 700; }
+.content#metropolis h3, .content#metropolis h4, .content#metropolis h5, .content#metropolis h6 { font-weight: 400; }
+.content#metropolis h1 { margin-left: 2em; margin-right: 2em; text-align: center; text-transform: uppercase; letter-spacing: 2px; }
 .content#metropolis .date { font-style: italic; font-size: 0.875em; text-align: center; }
 .content#metropolis a { color: #1470da; text-decoration: none; }
-.content#metropolis a:hover { text-decoration: underline; }
+.content#metropolis a:hover { color: #fe8b03; }
 .content#metropolis a:visited, .content#metropolis a.visited { color: #63a5f1; }
 .content#metropolis blockquote { border-left-color: rgba(254, 139, 3, 0.3); }
 .content#metropolis blockquote cite { color: #fe8b03; }
-.content#metropolis .author { background: #eee; padding: 10px; border-left: 2px solid #ccc; margin-left: 10px; }
+.content#metropolis .author { border-left: 2px solid #eee; margin-left: 10px; line-height: 1; text-align: center; }
+.content#metropolis .author .avatar { margin-bottom: 0.5em; }
+.content#metropolis .author .avatar img { -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; }
+.content#metropolis .author .flag { display: inline; }
+.content#metropolis .author .flag img { display: inline-block; vertical-align: top; max-height: 18px; }
+.content#metropolis .author .name { display: inline; font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 400; font-style: normal; text-transform: uppercase; font-size: 18px; }
+.content#park { font-family: 'Source Sans Pro', sans-serif; color: #666; }
+.content#park .author { position: relative; top: -3em; padding: 10px; border: 2px solid #eef; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; background: white; }
+.content#park .author .avatar img, .content#park .author .flag img { -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; border: 2px solid white; }
+.content#park .author .flag { position: absolute; top: 110px; right: 5px; }
+.content#park .author .flag img { height: 50px; width: 50px; }
+.content#park .author .name { text-align: center; font-family: 'Oswald', sans-serif; }
+.content#park .heading { background: #e51f30; color: white; border-bottom: 5px solid #bb1624; }
+.content#park .heading h1 { color: white; }
+.content#park .heading .breadcrumb { font-style: italic; }
+.content#park .heading .breadcrumb a { color: white; }
+.content#park .heading .breadcrumb .sep { color: rgba(255, 255, 255, 0.5); }
+.content#park h1, .content#park h2, .content#park h3, .content#park h4, .content#park h5, .content#park h6 { font-family: 'Oswald', sans-serif; font-weight: 300; color: #e51f30; }
+.content#park a { color: #29acd8; text-decoration: none; }
+.content#park a:hover { text-decoration: underline; }
+.content#park a:visited, .content#park a .visited { color: #276174; }
+.content#park blockquote { position: relative; quotes: "\201C" "\201D" "\2018" "\2019"; border-left: 0; padding: 0 40px; margin: 2em 0; }
+.content#park blockquote:before, .content#park blockquote:after { position: absolute; color: #41991e; font-size: 4em; line-height: 0; }
+.content#park blockquote:before { top: 0.25em; left: 0; content: open-quote; }
+.content#park blockquote:after { bottom: 0; right: 0; content: close-quote; }
+.content#park blockquote cite { color: #41991e; }

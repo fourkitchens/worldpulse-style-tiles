@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>World Pulse: Building Style Tiles</title>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300|Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css' />
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic|Oswald:400,300,700' rel='stylesheet' type='text/css' />
   <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6795652/718384/css/fonts.css" />
   <link href="css/main.css" rel="stylesheet" type="text/css" />
 </head>
@@ -28,8 +29,8 @@
         <?php
           $user = new stdClass();
           $user->avatar = 'https://s3.amazonaws.com/uifaces/faces/twitter/divya/128.jpg';
-          $user->name = 'Divya Manian';
-          $user->nation = '';
+          $user->name = 'Divya';
+          $user->flag = 'flags-a/Botswana.png';
 
           include('copy.inc.php');
         ?>
@@ -47,22 +48,28 @@
     </div>
 
     <div class="set">
-      <div class="box half"><div class="title"><span>Community Park</span></div></div>
-      <div class="box half"><div class="image" id="park-3">&nbsp;</div></div>
-      <div class="collapsed">
-        <div class="box eighth"><div class="color" style="background-color: #41991e;">&nbsp;</div></div>
-        <div class="box eighth"><div class="color" style="background-color: #2fa9d2;">&nbsp;</div></div>
-        <div class="box eighth"><div class="color" style="background-color: #e51f30;">&nbsp;</div></div>
-        <div class="box eighth"><div class="color" style="background-color: #ffde43;">&nbsp;</div></div>
-        <div class="box eighth"><div class="adjective"><span>Rejuvenate</span></div></div>
-        <div class="box eighth"><div class="adjective"><span>Celebrate</span></div></div>
-        <div class="box eighth"><div class="adjective"><span>Coexist</span></div></div>
-        <div class="box eighth"><div class="adjective"><span>Healthy</span></div></div>
-        <div class="box quarter"><div class="image" id="park-5">&nbsp;</div></div>
-        <div class="box quarter"><div class="image" id="park-4">&nbsp;</div></div>
-        <div class="box quarter"><div class="image" id="park-2">&nbsp;</div></div>
-        <div class="box quarter"><div class="image" id="park-6">&nbsp;</div></div>
-      </div>
+      <div class="box quarter"><div class="title"><span>Community Park</span></div></div>
+      <div class="box thq xhigh right"><div class="content" id="park">
+        <?php
+          $user = new stdClass();
+          $user->avatar = 'https://s3.amazonaws.com/uifaces/faces/twitter/reetajayendra/128.jpg';
+          $user->name = 'Rita';
+          $user->flag = 'flags-a/Colombia.png';
+
+          include('copy.inc.php');
+        ?>
+      </div></div>
+
+      <div class="box eighth"><div class="color" style="background-color: #41991e;">&nbsp;</div></div>
+      <div class="box eighth"><div class="color" style="background-color: #2fa9d2;">&nbsp;</div></div>
+      <div class="box eighth"><div class="color" style="background-color: #e51f30;">&nbsp;</div></div>
+      <div class="box eighth"><div class="color" style="background-color: #ffde43;">&nbsp;</div></div>
+      <div class="box eighth"><div class="adjective"><span>Rejuvenate</span></div></div>
+      <div class="box eighth"><div class="adjective"><span>Celebrate</span></div></div>
+      <div class="box eighth"><div class="adjective"><span>Coexist</span></div></div>
+      <div class="box eighth"><div class="adjective"><span>Healthy</span></div></div>
+      <div class="box quarter"><div class="image" id="park-5">&nbsp;</div></div>
+      <div class="box quarter"><div class="image" id="park-4">&nbsp;</div></div>
     </div>
 
     <div class="banner" id="adjs">
