@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>World Pulse: Building Style Tiles</title>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300|Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css' />
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic|Oswald:400,300,700' rel='stylesheet' type='text/css' />
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css' />
   <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6795652/718384/css/fonts.css" />
   <link href="css/main.css" rel="stylesheet" type="text/css" />
 </head>
@@ -25,7 +25,24 @@
     </div>
     <div class="set">
       <div class="box quarter"><div class="title"><span>Metropolis<br /><small>Gotham &amp; Whitney</small></span></div></div>
-      <div class="box thq xhigh right"><div class="content" id="metropolis">
+      <div class="box thq right no-height">
+        <div class="content metropolis introduction">
+          <div class="content-wrap">
+            <p><strong>The newspaper:</strong> visual impact created with large,
+              documentary photography, reinforced by sophisticated but simple
+              typography and a subtle UI featuring soft-neutral boundaries with
+              right-angles or minimally rounded borders to frame content and
+              direct interactions, conveying a modern strength and dependability.
+              Reminiscent of the World Pulse website, with inspiration from
+              <a href="http://catapult.org">Catapult.org</a>,
+              <a href="http://insights.som.yale.edu/">Yale School of Management: Insights</a>,
+              <a href="http://www.globalpressjournal.com/">Global Press Journal</a>,
+              <a href="http://www.opensocietyfoundations.org">Open Society Foundations</a>, and
+              <a href="http://www.npr.org/sections/us/">National Public Radio</a>.</p>
+          </div>
+        </div>
+      </div>
+      <div class="box thq no-height right"><div class="content metropolis">
         <?php
           $user = new stdClass();
           $user->avatar = 'https://s3.amazonaws.com/uifaces/faces/twitter/divya/128.jpg';
@@ -35,21 +52,39 @@
           include('copy.inc.php');
         ?>
       </div></div>
+      <div class="box eighth reg"><div class="color" style="background-color: #342454;">&nbsp;</div></div>
       <div class="box eighth"><div class="color" style="background-color: #63a5f1;">&nbsp;</div></div>
-      <div class="box eighth"><div class="color" style="background-color: #a8a69a;">&nbsp;</div></div>
-      <div class="box eighth"><div class="color" style="background-color: #342454;">&nbsp;</div></div>
       <div class="box eighth"><div class="color" style="background-color: #fe8b03;">&nbsp;</div></div>
       <div class="box eighth"><div class="adjective"><span>Diverse</span></div></div>
       <div class="box eighth"><div class="adjective"><span>Pulse</span></div></div>
       <div class="box eighth"><div class="adjective"><span>Exchange</span></div></div>
       <div class="box eighth"><div class="adjective"><span>Instigate</span></div></div>
-      <div class="box quarter"><div class="image" id="nyc-3">&nbsp;</div></div>
-      <div class="box quarter"><div class="image" id="nyc-4">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover bgleft" id="blogpost-1">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" id="section-hero">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" id="features">&nbsp;</div></div>
     </div>
 
     <div class="set">
-      <div class="box quarter"><div class="title"><span>Community Park</span></div></div>
-      <div class="box thq xhigh right"><div class="content" id="park">
+      <div class="box quarter"><div class="title"><span>Community Park<br /><small>Source Sans Pro &amp; Gotham</small></span></div></div>
+      <div class="box thq right no-height">
+        <div class="content park introduction">
+          <div class="content-wrap">
+            <p><strong>The magazine:</strong> visual impact created by bright,
+              near-primary colors with secondary accents, with more rounded
+              components to evoke a more celebratory and light attitude while
+              retaining a modern appeal, but avoiding the traps of the
+              &ldquo;flat&rdquo; aesthetic trend. Reminiscent of the World Pulse
+              magazine (print editions), with inspiration from
+              <a href="http://www.empowerwomen.org/">Women's Economic Empowerment</a>,
+              <a href="http://catapult.org">Catapult.org</a>,
+              <a href="http://www.microsoft.com/en-us/default.aspx">Microsoft</a>,
+              <a href="http://www.etsy.com">Etsy</a>, and
+              <a href="http://www.smashingmagazine.com/">Smashing Magazine</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box thq no-height right"><div class="content park">
         <?php
           $user = new stdClass();
           $user->avatar = 'https://s3.amazonaws.com/uifaces/faces/twitter/reetajayendra/128.jpg';
@@ -60,16 +95,63 @@
         ?>
       </div></div>
 
-      <div class="box eighth"><div class="color" style="background-color: #41991e;">&nbsp;</div></div>
+      <div class="box eighth reg"><div class="color" style="background-color: #e51f30;">&nbsp;</div></div>
       <div class="box eighth"><div class="color" style="background-color: #2fa9d2;">&nbsp;</div></div>
-      <div class="box eighth"><div class="color" style="background-color: #e51f30;">&nbsp;</div></div>
-      <div class="box eighth"><div class="color" style="background-color: #ffde43;">&nbsp;</div></div>
+      <div class="box eighth"><div class="color" style="background-color: #41991e;">&nbsp;</div></div>
       <div class="box eighth"><div class="adjective"><span>Rejuvenate</span></div></div>
       <div class="box eighth"><div class="adjective"><span>Celebrate</span></div></div>
       <div class="box eighth"><div class="adjective"><span>Coexist</span></div></div>
       <div class="box eighth"><div class="adjective"><span>Healthy</span></div></div>
-      <div class="box quarter"><div class="image" id="park-5">&nbsp;</div></div>
-      <div class="box quarter"><div class="image" id="park-4">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" id="index">&nbsp;</div></div>
+      <div class="box quarter"><div class="image" style="background-size: 300%; background-position: -350px -300px;" id="dashboard-proto-flat">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" style="background-position: -130px center;" id="inbox-flat">&nbsp;</div></div>
+    </div>
+
+    <div class="set">
+      <div class="box quarter"><div class="title"><span>Heritage<br /><small>Whitney &amp; Gotham &amp; Archer</small></span></div></div>
+      <div class="box thq right no-height">
+        <div class="content heritage introduction">
+          <div class="content-wrap">
+            <p><strong>The past, rejuvinated:</strong> World Pulse team members
+              are proud of and nostalgic for brand assets of the past and the
+              present. Leveraging the existing palette of rich, organic tertiary
+              colors which convey a non-specific international diversity and
+              combining it with more legible typography and modern layout
+              techniques freshens the look and feel without departing from
+              current standards. Reminiscent of the World Pulse website and
+              magazine (especially in coloring), with inspiration from
+              <a href="http://www.vitalvoices.org/">Vital Voices</a>,
+              <a href="http://www.globalpressjournal.com/">Global Press Journal</a>, and
+
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box thq no-height right"><div class="content heritage">
+        <?php
+          $user = new stdClass();
+          $user->avatar = 'https://s3.amazonaws.com/uifaces/faces/twitter/mashaaaaal/128.jpg';
+          $user->name = 'Mashaal';
+          $user->flag = 'flags-a/Mauritius.png';
+
+          include('copy.inc.php');
+        ?>
+      </div></div>
+
+      <div class="box eighth"><div class="color" style="background-color: #43051e;">&nbsp;</div></div>
+      <div class="box eighth"><div class="color" style="background-color: #6e1d24;">&nbsp;</div></div>
+      <div class="box eighth"><div class="color" style="background-color: #778f41;">&nbsp;</div></div>
+      <div class="box eighth"><div class="color" style="background-color: #b4a23c;">&nbsp;</div></div>
+      <div class="box eighth"><div class="color" style="background-color: #004652;">&nbsp;</div></div>
+      <div class="box eighth"><div class="color" style="background-color: #6b8295;">&nbsp;</div></div>
+      <div class="box eighth"><div class="adjective"><span>Warm</span></div></div>
+      <div class="box eighth"><div class="adjective"><span>Diverse</span></div></div>
+      <div class="box eighth"><div class="adjective"><span>Alive</span></div></div>
+      <div class="box eighth"><div class="adjective"><span>Welcoming</span></div></div>
+      <div class="box quarter"><div class="image cover" id="megamenu">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover bgleft" id="popular">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" id="event">&nbsp;</div></div>
     </div>
 
     <div class="banner" id="adjs">
@@ -236,6 +318,9 @@
       <div class="box quarter high"><div class="image" id="teaser-1">&nbsp;</div></div>
       <div class="box quarter"><div class="image cover bgtop" id="teaser-2">&nbsp;</div></div>
       <div class="box quarter"><div class="image cover bgleft" id="leaderboard">&nbsp;</div></div>
+      <div class="box half high"><div class="image cover" id="editor">&nbsp;</div></div>
+      <div class="box half right"><div class="image cover" id="inbox-flat">&nbsp;</div></div>
+      <div class="box half right"><div class="image cover" id="dashboard-proto-flat">&nbsp;</div></div>
     </div>
   </main>
   <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>

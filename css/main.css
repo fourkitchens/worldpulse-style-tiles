@@ -39,7 +39,10 @@ header ul a:hover { color: #0066FF; }
 .box.high { padding-bottom: 50%; }
 .box.xhigh { padding-bottom: 125%; }
 .box.mid { padding-bottom: 37.5%; }
+.box.reg { padding-bottom: 25%; }
 .box.low { padding-bottom: 12.5%; }
+.box.no-height { padding-bottom: 0; height: auto; }
+.box.no-height > div { position: static; margin: 5px; }
 .box.right { float: right; }
 .box > div { position: absolute; top: 5px; right: 5px; bottom: 5px; left: 5px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.125); -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.125); box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.125); }
 .box > div.hover { -webkit-transition: opacity 0.15s ease; -moz-transition: opacity 0.15s ease; -ms-transition: opacity 0.15s ease; -o-transition: opacity 0.15s ease; transition: opacity 0.15s ease; }
@@ -268,6 +271,27 @@ header ul a:hover { color: #0066FF; }
 #teaser-2.bgleft { background-position: left center; }
 #teaser-2.bgright { background-position: right center; }
 
+#inbox-flat { background-color: white; background-image: url('/gfx/swatches/inbox-flat.png?1394210192'); background-size: contain; }
+#inbox-flat.cover { background-size: cover; }
+#inbox-flat.bgtop { background-position: center top; }
+#inbox-flat.bgbottom { background-position: center bottom; }
+#inbox-flat.bgleft { background-position: left center; }
+#inbox-flat.bgright { background-position: right center; }
+
+#dashboard-proto-flat { background-color: white; background-image: url('/gfx/swatches/dashboard-proto-flat.png?1394210357'); background-size: contain; }
+#dashboard-proto-flat.cover { background-size: cover; }
+#dashboard-proto-flat.bgtop { background-position: center top; }
+#dashboard-proto-flat.bgbottom { background-position: center bottom; }
+#dashboard-proto-flat.bgleft { background-position: left center; }
+#dashboard-proto-flat.bgright { background-position: right center; }
+
+#editor { background-color: white; background-image: url('/gfx/swatches/editor.png?1394226500'); background-size: contain; }
+#editor.cover { background-size: cover; }
+#editor.bgtop { background-position: center top; }
+#editor.bgbottom { background-position: center bottom; }
+#editor.bgleft { background-position: left center; }
+#editor.bgright { background-position: right center; }
+
 body { background: #e0e0e0; font-family: 'Open Sans'; }
 body.transition { -webkit-transition: background-color 1s ease; -moz-transition: background-color 1s ease; -ms-transition: background-color 1s ease; -o-transition: background-color 1s ease; transition: background-color 1s ease; }
 
@@ -350,45 +374,68 @@ em { font-style: italic; }
 .content-wrap blockquote { margin: 1em 0; border-left: 4px solid white; padding: 0 40px 0 36px; }
 .content-wrap blockquote cite { display: block; text-align: right; font-size: 0.875em; font-style: italic; }
 
-.content { background: white; }
-.content#metropolis { padding-left: 25px; padding-right: 25px; color: #555; font-family: 'Whitney SSm A', 'Whitney SSm B'; }
-.content#metropolis .body, .content#metropolis .heading { padding-left: 0; padding-right: 0; }
-.content#metropolis .breadcrumb { font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 400; font-style: normal; text-transform: uppercase; font-size: 0.75em; }
-.content#metropolis .breadcrumb .sep { color: #999; }
-.content#metropolis .body { border-top: 3px solid #EEE; }
-.content#metropolis h1, .content#metropolis h2, .content#metropolis h3, .content#metropolis h4, .content#metropolis h5, .content#metropolis h6 { font-family: 'Gotham SSm A', 'Gotham SSm B'; font-style: normal; color: #342454; }
-.content#metropolis h1, .content#metropolis h2 { font-weight: 700; }
-.content#metropolis h3, .content#metropolis h4, .content#metropolis h5, .content#metropolis h6 { font-weight: 400; }
-.content#metropolis h1 { margin-left: 2em; margin-right: 2em; text-align: center; text-transform: uppercase; letter-spacing: 2px; }
-.content#metropolis .date { font-style: italic; font-size: 0.875em; text-align: center; }
-.content#metropolis a { color: #1470da; text-decoration: none; }
-.content#metropolis a:hover { color: #fe8b03; }
-.content#metropolis a:visited, .content#metropolis a.visited { color: #63a5f1; }
-.content#metropolis blockquote { border-left-color: rgba(254, 139, 3, 0.3); }
-.content#metropolis blockquote cite { color: #fe8b03; }
-.content#metropolis .author { border-left: 2px solid #eee; margin-left: 10px; line-height: 1; text-align: center; }
-.content#metropolis .author .avatar { margin-bottom: 0.5em; }
-.content#metropolis .author .avatar img { -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; }
-.content#metropolis .author .flag { display: inline; }
-.content#metropolis .author .flag img { display: inline-block; vertical-align: top; max-height: 18px; }
-.content#metropolis .author .name { display: inline; font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 400; font-style: normal; text-transform: uppercase; font-size: 18px; }
-.content#park { font-family: 'Source Sans Pro', sans-serif; color: #666; }
-.content#park .author { position: relative; top: -3em; padding: 10px; border: 2px solid #eef; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; background: white; }
-.content#park .author .avatar img, .content#park .author .flag img { -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; border: 2px solid white; }
-.content#park .author .flag { position: absolute; top: 110px; right: 5px; }
-.content#park .author .flag img { height: 50px; width: 50px; }
-.content#park .author .name { text-align: center; font-family: 'Oswald', sans-serif; }
-.content#park .heading { background: #e51f30; color: white; border-bottom: 5px solid #bb1624; }
-.content#park .heading h1 { color: white; }
-.content#park .heading .breadcrumb { font-style: italic; }
-.content#park .heading .breadcrumb a { color: white; }
-.content#park .heading .breadcrumb .sep { color: rgba(255, 255, 255, 0.5); }
-.content#park h1, .content#park h2, .content#park h3, .content#park h4, .content#park h5, .content#park h6 { font-family: 'Oswald', sans-serif; font-weight: 300; color: #e51f30; }
-.content#park a { color: #29acd8; text-decoration: none; }
-.content#park a:hover { text-decoration: underline; }
-.content#park a:visited, .content#park a .visited { color: #276174; }
-.content#park blockquote { position: relative; quotes: "\201C" "\201D" "\2018" "\2019"; border-left: 0; padding: 0 40px; margin: 2em 0; }
-.content#park blockquote:before, .content#park blockquote:after { position: absolute; color: #41991e; font-size: 4em; line-height: 0; }
-.content#park blockquote:before { top: 0.25em; left: 0; content: open-quote; }
-.content#park blockquote:after { bottom: 0; right: 0; content: close-quote; }
-.content#park blockquote cite { color: #41991e; }
+.content { background: white; /******************************************************************************* METROPOLIS                                                                  * ******************************************************************************/ /******************************************************************************* PARK                                                                        * ******************************************************************************/ /******************************************************************************* HERITAGE                                                                    * ******************************************************************************/ }
+.content.introduction { padding: 25px; }
+.content.introduction p:last-child { margin-bottom: 0; }
+.content.metropolis { color: #555; font-family: 'Whitney SSm A', 'Whitney SSm B'; }
+.content.metropolis .breadcrumb { font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 400; font-style: normal; text-transform: uppercase; font-size: 0.75em; }
+.content.metropolis .breadcrumb .sep { color: #999; }
+.content.metropolis .heading { background: url('/gfx/dubai.jpg?1394230339') no-repeat center bottom; background-size: cover; }
+.content.metropolis .body { border-top: 3px solid #EEE; }
+.content.metropolis h1, .content.metropolis h2, .content.metropolis h3, .content.metropolis h4, .content.metropolis h5, .content.metropolis h6 { font-family: 'Gotham SSm A', 'Gotham SSm B'; font-style: normal; color: #342454; }
+.content.metropolis h1, .content.metropolis h2 { font-weight: 700; }
+.content.metropolis h3, .content.metropolis h4, .content.metropolis h5, .content.metropolis h6 { font-weight: 400; }
+.content.metropolis h1 { margin: 6.5em 3em 0.75em 3em; text-align: center; text-transform: uppercase; letter-spacing: 2px; color: white; text-shadow: 1px 1px 0 #342454; }
+.content.metropolis .date { color: white; font-style: italic; font-size: 0.875em; text-align: center; }
+.content.metropolis a { color: #1470da; text-decoration: none; }
+.content.metropolis a:hover { color: #fe8b03; }
+.content.metropolis a:visited, .content.metropolis a.visited { color: #63a5f1; }
+.content.metropolis blockquote { border-left-color: rgba(254, 139, 3, 0.3); }
+.content.metropolis blockquote cite { color: #fe8b03; }
+.content.metropolis .author { padding: 0 0 10px 0; border-bottom: 5px solid #4a3378; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); margin-left: 10px; line-height: 1; text-align: center; }
+.content.metropolis .author .avatar { margin-bottom: 0.5em; }
+.content.metropolis .author .flag { display: inline; }
+.content.metropolis .author .flag img { display: inline-block; vertical-align: top; max-height: 18px; }
+.content.metropolis .author .name { display: inline; font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 400; font-style: normal; text-transform: uppercase; font-size: 18px; }
+.content.park { font-family: 'Source Sans Pro', sans-serif; color: #666; }
+.content.park .author { position: relative; top: -3em; padding: 10px; border: 2px solid #eef; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; background: white; }
+.content.park .author .avatar img, .content.park .author .flag img { -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; border: 2px solid white; }
+.content.park .author .flag { position: absolute; top: 110px; right: 5px; }
+.content.park .author .flag img { height: 50px; width: 50px; }
+.content.park .author .name { text-align: center; }
+.content.park .heading { background: #e51f30; color: white; border-bottom: 5px solid #bb1624; }
+.content.park .heading h1 { color: white; }
+.content.park .heading .breadcrumb { font-style: italic; }
+.content.park .heading .breadcrumb a { color: white; }
+.content.park .heading .breadcrumb .sep { color: rgba(255, 255, 255, 0.5); }
+.content.park h1, .content.park h2, .content.park h3, .content.park h4, .content.park h5, .content.park h6 { font-family: 'Gotham SSm A', 'Gotham SSm B'; font-style: normal; font-weight: 300; color: #e51f30; }
+.content.park a { color: #29acd8; text-decoration: none; }
+.content.park a:hover { text-decoration: underline; }
+.content.park a:visited, .content.park a .visited { color: #3593b3; }
+.content.park blockquote { position: relative; quotes: "\201C" "\201D" "\2018" "\2019"; border-left: 0; padding: 0 40px; margin: 2em 0; }
+.content.park blockquote:before, .content.park blockquote:after { position: absolute; color: #41991e; font-size: 4em; line-height: 0; }
+.content.park blockquote:before { top: 0.25em; left: 0; content: open-quote; }
+.content.park blockquote:after { bottom: 0; right: 0; content: close-quote; }
+.content.park blockquote cite { color: #41991e; }
+.content.heritage { color: #334; font-family: 'Whitney SSm A', 'Whitney SSm B'; padding-left: 25px; padding-right: 25px; }
+.content.heritage h1, .content.heritage h2, .content.heritage h3, .content.heritage h4, .content.heritage h5, .content.heritage h6 { font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 400; color: #6e1d24; }
+.content.heritage a { color: #5b87a8; text-decoration: none; }
+.content.heritage a:hover { color: #5d788c; text-decoration: underline; }
+.content.heritage a:visited, .content.heritage a .visited { color: #577083; }
+.content.heritage blockquote { position: relative; quotes: "\201C" "\201D" "\2018" "\2019"; border-left: 0; padding: 0 40px; margin: 2em 0; color: #43051e; }
+.content.heritage blockquote, .content.heritage blockquote:before, .content.heritage blockquote:after { font-family: 'Archer SSm A', 'Archer SSm B'; font-weight: 500; }
+.content.heritage blockquote:before, .content.heritage blockquote:after, .content.heritage blockquote cite { color: #6e1d24; }
+.content.heritage blockquote:before, .content.heritage blockquote:after { position: absolute; font-size: 4em; line-height: 0; }
+.content.heritage blockquote:before { top: 0.25em; left: 0; content: open-quote; }
+.content.heritage blockquote:after { bottom: 0; right: 0; content: close-quote; }
+.content.heritage .author { background: #f4f4f4; border: 1px solid #e6e6e6; border-bottom-width: 3px; padding: 15px; margin: 0 0 15px 15px; text-align: center; }
+.content.heritage .author .flag { display: inline; }
+.content.heritage .author .flag img { display: inline-block; vertical-align: baseline; max-height: 16px; }
+.content.heritage .author .name { display: inline; font-family: 'Archer SSm A', 'Archer SSm B'; font-weight: 600; font-style: italic; font-size: 18px; }
+.content.heritage .body, .content.heritage .heading { padding-left: 0; padding-right: 0; }
+.content.heritage .heading { border-bottom: 1px solid #f4f4f4; }
+.content.heritage .heading h1 { color: #6e1d24; font-family: 'Archer SSm A', 'Archer SSm B'; font-weight: 600; font-style: italic; }
+.content.heritage .heading .date { text-align: center; font-family: 'Archer SSm A', 'Archer SSm B'; font-weight: 500; font-style: italic; }
+.content.heritage .heading .breadcrumb a { font-style: italic; }
+.content.heritage .heading .breadcrumb .sep { color: #6b8295; }
+.content.heritage .body { border-top: 1px solid #e6e6e6; }

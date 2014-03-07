@@ -42,8 +42,21 @@
     padding-bottom: 37.5%;
   }
 
+  &.reg {
+    padding-bottom: 25%;
+  }
+
   &.low {
     padding-bottom: 12.5%;
+  }
+
+  &.no-height {
+    padding-bottom: 0;
+    height: auto;
+    > div {
+      position: static;
+      margin: 5px;
+    }
   }
 
   &.right {

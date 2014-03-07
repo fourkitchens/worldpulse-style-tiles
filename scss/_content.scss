@@ -42,14 +42,19 @@
 .content {
   background: white;
 
-  &#metropolis {
-    padding-left: 25px;
-    padding-right: 25px;
+  &.introduction {
+    padding: 25px;
 
-    .body, .heading {
-      padding-left: 0;
-      padding-right: 0;
+    p:last-child {
+      margin-bottom: 0;
     }
+  }
+
+/*******************************************************************************
+ * METROPOLIS                                                                  *
+ *******************************************************************************/
+
+  &.metropolis {
     color: #555;
     font-family: 'Whitney SSm A', 'Whitney SSm B';
 
@@ -61,6 +66,11 @@
       .sep {
         color: #999;
       }
+    }
+
+    .heading {
+      background: image-url('dubai.jpg') no-repeat center bottom;
+      background-size: cover;
     }
 
     .body {
@@ -81,14 +91,16 @@
     }
 
     h1 {
-      margin-left: 2em;
-      margin-right: 2em;
+      margin: 6.5em 3em 0.75em 3em;
       text-align: center;
       text-transform: uppercase;
       letter-spacing: 2px;
+      color: white;
+      @include text-shadow(1px 1px 0 rgb(52, 36, 84));
     }
 
     .date {
+      color: white;
       font-style: italic;
       font-size: 0.875em;
       text-align: center;
@@ -107,16 +119,18 @@
     }
 
     .author {
-      border-left: 2px solid #eee;
+      padding: 0 0 10px 0;
+      border: {
+        // top: 5px solid lighten(rgb(52, 36, 84), 10%);
+        bottom: 5px solid lighten(rgb(52, 36, 84), 10%);
+      }
+      @include box-shadow(0 0 10px rgba(0,0,0,0.15));
       margin-left: 10px;
       line-height: 1;
       text-align: center;
 
       .avatar {
         margin-bottom: 0.5em;
-        img {
-          @include border-radius(3px);
-        }
       }
 
       .flag {
@@ -138,7 +152,11 @@
     }
   }
 
-  &#park {
+/*******************************************************************************
+ * PARK                                                                        *
+ *******************************************************************************/
+
+  &.park {
     font-family: 'Source Sans Pro', sans-serif;
     color: #666;
 
@@ -169,7 +187,6 @@
 
       .name {
         text-align: center;
-        font-family: 'Oswald', sans-serif;
       }
     }
 
@@ -193,7 +210,7 @@
     }
 
     #{headings()} {
-      font-family: 'Oswald', sans-serif;
+      font-family: 'Gotham SSm A', 'Gotham SSm B'; font-style: normal;
       font-weight: 300;
       color: rgb(229, 31, 48);
     }
@@ -202,7 +219,7 @@
       color: saturate(rgb(47, 169, 210), 5%);
       text-decoration: none;
       &:hover { text-decoration: underline; }
-      &:visited, .visited { color: desaturate(darken(rgb(47, 169, 210), 20%), 15%); }
+      &:visited, .visited { color: desaturate(darken(rgb(47, 169, 210), 5%), 10%); }
     }
 
     blockquote {
@@ -236,4 +253,126 @@
       }
     }
   }
+
+/*******************************************************************************
+ * HERITAGE                                                                    *
+ *******************************************************************************/
+
+  &.heritage {
+    color: #334;
+    font-family: 'Whitney SSm A', 'Whitney SSm B';
+
+    #{headings()} {
+      font-family: 'Gotham SSm A', 'Gotham SSm B';
+      font-weight: 400;
+      color: rgb(110, 29, 36);
+    }
+
+    a {
+      color: saturate(#68859b, 10%);
+      text-decoration: none;
+      &:hover { color: darken(#68859b, 5%); text-decoration: underline; }
+      &:visited, .visited { color: darken(#68859b, 8%); }
+    }
+
+    blockquote {
+      position: relative;
+
+      quotes: "\201C""\201D""\2018""\2019";
+      border-left: 0;
+      padding: 0 40px;
+      margin: 2em 0;
+
+      color: rgb(67, 5, 30);
+
+      &, &:before, &:after {
+        font-family: 'Archer SSm A', 'Archer SSm B';
+        font-weight: 500;
+      }
+
+      &:before, &:after, cite {
+        color: rgb(110, 29, 36);
+      }
+
+      &:before, &:after {
+        position: absolute;
+        font-size: 4em;
+        line-height: 0;
+      }
+
+      &:before {
+        top: 0.25em;
+        left: 0;
+        content: open-quote;
+      }
+
+      &:after {
+        bottom: 0;
+        right: 0;
+        content: close-quote;
+      }
+    }
+
+    .author {
+      background: #f4f4f4;
+      border: 1px solid #e6e6e6;
+      border-bottom-width: 3px;
+      padding: 15px;
+      margin: 0 0 15px 15px;
+      text-align: center;
+
+      .flag {
+        display: inline;
+        img {
+          display: inline-block;
+          vertical-align: baseline;
+          max-height: 16px;
+        }
+      }
+
+      .name {
+        display: inline;
+        font-family: 'Archer SSm A', 'Archer SSm B'; font-weight: 600; font-style: italic;
+        font-size: 18px;
+      }
+    }
+
+
+    padding-left: 25px;
+    padding-right: 25px;
+    .body, .heading {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .heading {
+      border-bottom: 1px solid #f4f4f4;
+
+      h1 {
+        color: rgb(110, 29, 36);
+        font-family: 'Archer SSm A', 'Archer SSm B'; font-weight: 600; font-style: italic;
+      }
+
+      .date {
+        text-align: center;
+        font-family: 'Archer SSm A', 'Archer SSm B'; font-weight: 500; font-style: italic;
+      }
+
+      .breadcrumb {
+        a {
+          font-style: italic;
+        }
+
+        .sep {
+          color: rgb(107, 130, 149);
+        }
+      }
+    }
+
+    .body {
+      border-top: 1px solid #e6e6e6;
+    }
+
+  }
+
 }
