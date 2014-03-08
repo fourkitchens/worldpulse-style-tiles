@@ -20,8 +20,46 @@
   </header>
   <main>
     <div class="banner" id="tiles">
-      <h2>Mood Boards <small>Colors, adjectives, imagery interpreted from &ldquo;World Pulse as a Place&rdquo; responses</small></h2>
+      <h2>Style Tiles</h2>
     </div>
+    <div class="set">
+      <div class="box quarter"><div class="title"><span>Introduction</span></div></div>
+      <div class="box thq right no-height">
+        <div class="content introduction">
+          <div class="content-wrap">
+            <p>These are still a working draft following the feedback from the
+              original mood boards. <em>Metropolis</em> was noted as a strong
+              possibility, and <em>Community Part</em> was not ruled out.
+              Therefore, those have been tweaked, and used to create an initial
+              style of a journal post. Additionally, I built another style tile
+              using the existing WP palette. <em>This is not a finished design,</em>
+              merely one possible vision when combining the Journal wireframes
+              with some typography and color ideas; it's a taste. Two things to
+              note specifically:</p>
+
+              <ul>
+                <li>Rather than replace my original photography with World Pulse
+                  approved brand photos, I have removed photography completely.
+                  I don't want to pull you into an uncomfortable space with
+                  jarring images, but I also don't want to leave you in a
+                  familiar space. That photography served its purpose for color
+                  research, and has been discarded. Your photography will be
+                  added back in later as we begin to work with specific
+                  components.</li>
+                <li>The word &ldquo;Pulse&rdquo; was also removed from this set,
+                  even though it resonates strongly with Jensine and Corine.
+                  Rather than evoking a particular aesthetic quality, it represents
+                  the quest for a spirit/initiative or specific feature. Let's
+                  talk <em>Pulse</em> in the near future! In the meantime,
+                  I tried to avoid using branding-laden language on this
+                  mission of aesthetics.</li>
+              </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="set">
       <div class="box quarter"><div class="title"><span>Metropolis<br /><small>Gotham &amp; Whitney</small></span></div></div>
       <div class="box thq right no-height">
