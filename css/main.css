@@ -292,6 +292,27 @@ header ul a:hover { color: #0066FF; }
 #editor.bgleft { background-position: left center; }
 #editor.bgright { background-position: right center; }
 
+#sidetabs { background-color: white; background-image: url('/gfx/swatches/sidetabs.png?1394231985'); background-size: contain; }
+#sidetabs.cover { background-size: cover; }
+#sidetabs.bgtop { background-position: center top; }
+#sidetabs.bgbottom { background-position: center bottom; }
+#sidetabs.bgleft { background-position: left center; }
+#sidetabs.bgright { background-position: right center; }
+
+#color-page-tall { background-color: white; background-image: url('/gfx/swatches/color-page-tall.png?1394232095'); background-size: contain; }
+#color-page-tall.cover { background-size: cover; }
+#color-page-tall.bgtop { background-position: center top; }
+#color-page-tall.bgbottom { background-position: center bottom; }
+#color-page-tall.bgleft { background-position: left center; }
+#color-page-tall.bgright { background-position: right center; }
+
+#overview-elccs { background-color: white; background-image: url('/gfx/swatches/overview-elccs.png?1394234783'); background-size: contain; }
+#overview-elccs.cover { background-size: cover; }
+#overview-elccs.bgtop { background-position: center top; }
+#overview-elccs.bgbottom { background-position: center bottom; }
+#overview-elccs.bgleft { background-position: left center; }
+#overview-elccs.bgright { background-position: right center; }
+
 body { background: #e0e0e0; font-family: 'Open Sans'; }
 body.transition { -webkit-transition: background-color 1s ease; -moz-transition: background-color 1s ease; -ms-transition: background-color 1s ease; -o-transition: background-color 1s ease; transition: background-color 1s ease; }
 
@@ -373,6 +394,8 @@ em { font-style: italic; }
 .content-wrap .author + p, .content-wrap p:first-child { margin-top: 0; }
 .content-wrap blockquote { margin: 1em 0; border-left: 4px solid white; padding: 0 40px 0 36px; }
 .content-wrap blockquote cite { display: block; text-align: right; font-size: 0.875em; font-style: italic; }
+.content-wrap .comment .avatar { float: left; margin-right: 15px; }
+.content-wrap .comment .avatar img { display: block; }
 
 .content { background: white; /******************************************************************************* METROPOLIS                                                                  * ******************************************************************************/ /******************************************************************************* PARK                                                                        * ******************************************************************************/ /******************************************************************************* HERITAGE                                                                    * ******************************************************************************/ }
 .content.introduction { padding: 25px; }
@@ -382,6 +405,12 @@ em { font-style: italic; }
 .content.metropolis .breadcrumb .sep { color: #999; }
 .content.metropolis .heading { background: url('/gfx/dubai.jpg?1394230339') no-repeat center bottom; background-size: cover; }
 .content.metropolis .body { border-top: 3px solid #EEE; }
+.content.metropolis .comments { margin-top: 1em; border-top: 3px solid #EEE; padding-top: 1em; }
+.content.metropolis .comments .avatar { border: 1px solid #f2f2f2; padding: 5px; -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); }
+.content.metropolis .comments h3 { margin-bottom: 0; }
+.content.metropolis .comments .meta { color: #342454; font-size: .875em; font-style: italic; margin-bottom: 1em; }
+.content.metropolis .comments .meta .by { color: rgba(52, 36, 84, 0.6); }
+.content.metropolis .comments .comment-text { overflow: hidden; }
 .content.metropolis h1, .content.metropolis h2, .content.metropolis h3, .content.metropolis h4, .content.metropolis h5, .content.metropolis h6 { font-family: 'Gotham SSm A', 'Gotham SSm B'; font-style: normal; color: #342454; }
 .content.metropolis h1, .content.metropolis h2 { font-weight: 700; }
 .content.metropolis h3, .content.metropolis h4, .content.metropolis h5, .content.metropolis h6 { font-weight: 400; }
@@ -392,10 +421,11 @@ em { font-style: italic; }
 .content.metropolis a:visited, .content.metropolis a.visited { color: #63a5f1; }
 .content.metropolis blockquote { border-left-color: rgba(254, 139, 3, 0.3); }
 .content.metropolis blockquote cite { color: #fe8b03; }
-.content.metropolis .author { padding: 0 0 10px 0; border-bottom: 5px solid #4a3378; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); margin-left: 10px; line-height: 1; text-align: center; }
+.content.metropolis .author { position: relative; padding: 0 0 10px 0; border-bottom: 5px solid #4a3378; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); margin-left: 10px; line-height: 1; text-align: center; }
 .content.metropolis .author .avatar { margin-bottom: 0.5em; }
-.content.metropolis .author .flag { display: inline; }
-.content.metropolis .author .flag img { display: inline-block; vertical-align: top; max-height: 18px; }
+.content.metropolis .author .avatar img { display: block; }
+.content.metropolis .author .flag { position: absolute; top: 105px; right: 5px; }
+.content.metropolis .author .flag img { display: block; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; border: 2px solid white; max-height: 18px; }
 .content.metropolis .author .name { display: inline; font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 400; font-style: normal; text-transform: uppercase; font-size: 18px; }
 .content.park { font-family: 'Source Sans Pro', sans-serif; color: #666; }
 .content.park .author { position: relative; top: -3em; padding: 10px; border: 2px solid #eef; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; background: white; }
@@ -417,6 +447,14 @@ em { font-style: italic; }
 .content.park blockquote:before { top: 0.25em; left: 0; content: open-quote; }
 .content.park blockquote:after { bottom: 0; right: 0; content: close-quote; }
 .content.park blockquote cite { color: #41991e; }
+.content.park .comments { border-top: 3px dotted #e51f30; }
+.content.park .comments .comment-header { margin-bottom: 1em; }
+.content.park .comments .comment-header .avatar { -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; border: 3px solid #2fa9d2; }
+.content.park .comments .comment-header .avatar img { -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; border: 3px solid white; }
+.content.park .comments .comment-header h3, .content.park .comments .comment-header .meta { margin: 0; color: #2fa9d2; }
+.content.park .comments .comment-header a { color: #2fa9d2; text-decoration: underline; }
+.content.park .comments .comment-header .by { color: rgba(47, 169, 210, 0.75); }
+.content.park .comment-text { overflow: hidden; }
 .content.heritage { color: #334; font-family: 'Whitney SSm A', 'Whitney SSm B'; padding-left: 25px; padding-right: 25px; }
 .content.heritage h1, .content.heritage h2, .content.heritage h3, .content.heritage h4, .content.heritage h5, .content.heritage h6 { font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 400; color: #6e1d24; }
 .content.heritage a { color: #5b87a8; text-decoration: none; }
@@ -439,3 +477,11 @@ em { font-style: italic; }
 .content.heritage .heading .breadcrumb a { font-style: italic; }
 .content.heritage .heading .breadcrumb .sep { color: #6b8295; }
 .content.heritage .body { border-top: 1px solid #e6e6e6; }
+.content.heritage .comments { padding: 25px; background: #f6f6f6; }
+.content.heritage .comments h2:first-child { margin-top: 0; }
+.content.heritage .comments .avatar img { -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; }
+.content.heritage .comments .comment-header { margin-bottom: 1em; }
+.content.heritage .comments .comment-header h3 { margin-bottom: 0; }
+.content.heritage .comments .comment-header .meta { font-size: 0.75em; font-style: italic; }
+.content.heritage .comments .comment-header .by { color: rgba(51, 51, 68, 0.7); }
+.content.heritage .comments .comment-text { overflow: hidden; }

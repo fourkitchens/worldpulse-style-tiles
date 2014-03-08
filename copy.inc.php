@@ -9,7 +9,7 @@
 
     <h1>World Pulse's Greatest Hits: 2013</h1>
 
-    <div class="date">January 21, 2014</div>
+    <div class="date"><?php echo date($date); ?></div>
   </div>
   <div class="body">
 
@@ -60,5 +60,31 @@
       <li><a href="#">Sign up</a> for World Pulse email updates</li>
       <li><a href="#" class="visited">Donate</a> to World Pulse</li>
     </ul>
+
+    <div class="comments">
+      <h2>Comments</h2>
+
+      <div class="comment">
+        <div class="comment-header">
+          <div class="avatar"><img src="<?=$comment->avatar ?>" alt="" /></div>
+          <h3>Great Work!</h3>
+          <div class="meta"><?php echo date($date); ?> <span class="by">by</span> <a href="#"><?=$comment->name ?></a></div>
+        </div>
+        <div class="comment-text">
+
+          <p>I am thrilled to know more about the numerous achievements recorded
+            by World Pulse, and I am particularly happy and feel really
+            privileged to be a part of World Pulse. It is so amazing that as
+            large as the community is, every voice matters, is heard and
+            counts.</p>
+
+          <p>The World Pulse Community has been a pillar of support to me, my
+            work and community, and it (the connections, conversations, learning
+            resources, opportunies and more) is all getting better and adding up
+            by the day.</p>
+
+        </div>
+      </div>
+    </div>
   </div>
 </div>

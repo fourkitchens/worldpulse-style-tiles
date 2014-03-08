@@ -49,6 +49,12 @@
           $user->name = 'Divya';
           $user->flag = 'flags-a/Botswana.png';
 
+          $date = 'l, F jS, Y';
+
+          $comment = new stdClass();
+          $comment->name = 'Keyuri85';
+          $comment->avatar = 'https://s3.amazonaws.com/uifaces/faces/twitter/keyuri85/128.jpg';
+
           include('copy.inc.php');
         ?>
       </div></div>
@@ -77,6 +83,7 @@
               magazine (print editions), with inspiration from
               <a href="http://www.empowerwomen.org/">Women's Economic Empowerment</a>,
               <a href="http://catapult.org">Catapult.org</a>,
+              <a href="http://commoncoresuccess.elschools.org/curriculum/grade-7/">Expeditionary Learning: Common Core Success</a>,
               <a href="http://www.microsoft.com/en-us/default.aspx">Microsoft</a>,
               <a href="http://www.etsy.com">Etsy</a>, and
               <a href="http://www.smashingmagazine.com/">Smashing Magazine</a>.
@@ -90,6 +97,12 @@
           $user->avatar = 'https://s3.amazonaws.com/uifaces/faces/twitter/reetajayendra/128.jpg';
           $user->name = 'Rita';
           $user->flag = 'flags-a/Colombia.png';
+
+          $date = 'j F Y';
+
+          $comment = new stdClass();
+          $comment->name = 'Aileen';
+          $comment->avatar = 'https://s3.amazonaws.com/uifaces/faces/twitter/aiiaiiaii/128.jpg';
 
           include('copy.inc.php');
         ?>
@@ -105,6 +118,7 @@
       <div class="box quarter"><div class="image cover" id="index">&nbsp;</div></div>
       <div class="box quarter"><div class="image" style="background-size: 300%; background-position: -350px -300px;" id="dashboard-proto-flat">&nbsp;</div></div>
       <div class="box quarter"><div class="image cover" style="background-position: -130px center;" id="inbox-flat">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" id="overview-elccs">&nbsp;</div></div>
     </div>
 
     <div class="set">
@@ -134,6 +148,12 @@
           $user->avatar = 'https://s3.amazonaws.com/uifaces/faces/twitter/mashaaaaal/128.jpg';
           $user->name = 'Mashaal';
           $user->flag = 'flags-a/Mauritius.png';
+
+          $date = 'F j, Y';
+
+          $comment = new stdClass();
+          $comment->name = 'Adellecharles';
+          $comment->avatar = 'https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg';
 
           include('copy.inc.php');
         ?>
@@ -305,6 +325,9 @@
       <div class="box half"><div class="image cover bgtop" id="dashboard-detail">&nbsp;</div></div>
       <div class="box quarter"><div class="image cover" id="features">&nbsp;</div></div>
       <div class="box full low"><div class="image cover" id="header-2">&nbsp;</div></div>
+      <div class="box half high"><div class="image cover" id="editor">&nbsp;</div></div>
+      <div class="box half right"><div class="image cover" id="inbox-flat">&nbsp;</div></div>
+      <div class="box half right"><div class="image cover" id="dashboard-proto-flat">&nbsp;</div></div>
       <div class="box quarter"><div class="image cover bgbottom" id="profile">&nbsp;</div></div>
       <div class="box quarter"><div class="image cover" id="index">&nbsp;</div></div>
       <div class="box half"><div class="image cover bgleft" id="blogpost-2">&nbsp;</div></div>
@@ -318,9 +341,9 @@
       <div class="box quarter high"><div class="image" id="teaser-1">&nbsp;</div></div>
       <div class="box quarter"><div class="image cover bgtop" id="teaser-2">&nbsp;</div></div>
       <div class="box quarter"><div class="image cover bgleft" id="leaderboard">&nbsp;</div></div>
-      <div class="box half high"><div class="image cover" id="editor">&nbsp;</div></div>
-      <div class="box half right"><div class="image cover" id="inbox-flat">&nbsp;</div></div>
-      <div class="box half right"><div class="image cover" id="dashboard-proto-flat">&nbsp;</div></div>
+      <div class="box quarter high"><div class="image cover bgtop" id="color-page-tall">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" id="sidetabs">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" id="overview-elccs">&nbsp;</div></div>
     </div>
   </main>
   <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
