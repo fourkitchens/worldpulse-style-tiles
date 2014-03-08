@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>World Pulse: Building Style Tiles</title>
+  <title>World Pulse: Style Tiles</title>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300|Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css' />
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css' />
   <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6795652/718384/css/fonts.css" />
@@ -12,10 +12,9 @@
   <header>
     <h1>World Pulse</h1>
     <ul>
-      <li><a href="#tiles">Early Style Tiles</a></li>
+      <li><a href="#tiles">Style Tiles</a></li>
       <li><a href="#adjs">Adjective Survey</a></li>
       <li><a href="#phrases">Guiding Phrases</a></li>
-      <li><a href="#sites">Critiqued Sites</a></li>
       <li><a href="#swatches">Component Swatches</a></li>
     </ul>
   </header>
@@ -62,7 +61,7 @@
       <div class="box eighth"><div class="color" style="background-color: #63a5f1;">&nbsp;</div></div>
       <div class="box eighth"><div class="color" style="background-color: #fe8b03;">&nbsp;</div></div>
       <div class="box eighth"><div class="adjective"><span>Diverse</span></div></div>
-      <div class="box eighth"><div class="adjective"><span>Pulse</span></div></div>
+      <div class="box eighth"><div class="adjective"><span>Confident</span></div></div>
       <div class="box eighth"><div class="adjective"><span>Exchange</span></div></div>
       <div class="box eighth"><div class="adjective"><span>Instigate</span></div></div>
       <div class="box quarter"><div class="image cover bgleft" id="blogpost-1">&nbsp;</div></div>
@@ -114,7 +113,7 @@
       <div class="box eighth"><div class="adjective"><span>Rejuvenate</span></div></div>
       <div class="box eighth"><div class="adjective"><span>Celebrate</span></div></div>
       <div class="box eighth"><div class="adjective"><span>Coexist</span></div></div>
-      <div class="box eighth"><div class="adjective"><span>Healthy</span></div></div>
+      <div class="box eighth"><div class="adjective"><span>Vibrant</span></div></div>
       <div class="box quarter"><div class="image cover" id="index">&nbsp;</div></div>
       <div class="box quarter"><div class="image" style="background-size: 300%; background-position: -350px -300px;" id="dashboard-proto-flat">&nbsp;</div></div>
       <div class="box quarter"><div class="image cover" style="background-position: -130px center;" id="inbox-flat">&nbsp;</div></div>
@@ -165,10 +164,10 @@
       <div class="box eighth"><div class="color" style="background-color: #b4a23c;">&nbsp;</div></div>
       <div class="box eighth"><div class="color" style="background-color: #004652;">&nbsp;</div></div>
       <div class="box eighth"><div class="color" style="background-color: #6b8295;">&nbsp;</div></div>
+      <div class="box eighth"><div class="adjective"><span>Safe</span></div></div>
       <div class="box eighth"><div class="adjective"><span>Warm</span></div></div>
       <div class="box eighth"><div class="adjective"><span>Diverse</span></div></div>
       <div class="box eighth"><div class="adjective"><span>Alive</span></div></div>
-      <div class="box eighth"><div class="adjective"><span>Welcoming</span></div></div>
       <div class="box quarter"><div class="image cover" id="megamenu">&nbsp;</div></div>
       <div class="box quarter"><div class="image cover bgleft" id="popular">&nbsp;</div></div>
       <div class="box quarter"><div class="image cover" id="event">&nbsp;</div></div>
@@ -293,23 +292,6 @@
       </div>
     </div>
 
-    <div class="banner" id="sites">
-      <h2>Sites we Critiqued <small>(positively or negatively)</small></h2>
-    </div>
-
-    <div class="set">
-      <div class="box half high"><div class="image" id="site-c">&nbsp;</div></div>
-      <div class="box quarter"><div class="image" id="site-bg">&nbsp;</div></div>
-      <div class="box quarter"><div class="image" id="site-cfc">&nbsp;</div></div>
-      <div class="box quarter"><div class="image" id="site-ew">&nbsp;</div></div>
-      <div class="box quarter"><div class="image" id="site-gpi">&nbsp;</div></div>
-      <div class="box quarter"><div class="image" id="site-times">&nbsp;</div></div>
-      <div class="box quarter"><div class="image" id="site-vv">&nbsp;</div></div>
-      <div class="box half high right"><div class="image" id="site-gpj">&nbsp;</div></div>
-      <div class="box half high"><div class="image" id="site-osf">&nbsp;</div></div>
-      <div class="box half"><div class="image" id="site-fbh">&nbsp;</div></div>
-    </div>
-
     <div class="banner" id="swatches">
       <h2>Component Swatches <small>from these sites and others</small></h2>
     </div>
@@ -317,7 +299,7 @@
     <div class="set">
       <div class="box thq"><div class="image cover" id="footer">&nbsp;</div></div>
       <div class="box quarter"><div class="image cover" id="profile-detail">&nbsp;</div></div>
-      <div class="box quarter high right"><div class="image cover" id="dashboard-sketch">&nbsp;</div></div>
+      <div class="box quarter high right"><div class="image cover bgtop" id="color-page-tall">&nbsp;</div></div>
       <div class="box quarter right"><div class="image cover bgleft" id="blogpost-1">&nbsp;</div></div>
       <div class="box half low"><div class="image cover" id="banners">&nbsp;</div></div>
       <div class="box quarter low" style="clear: left;"><div class="image cover bgtop" id="carousel">&nbsp;</div></div>
@@ -341,9 +323,8 @@
       <div class="box quarter high"><div class="image" id="teaser-1">&nbsp;</div></div>
       <div class="box quarter"><div class="image cover bgtop" id="teaser-2">&nbsp;</div></div>
       <div class="box quarter"><div class="image cover bgleft" id="leaderboard">&nbsp;</div></div>
-      <div class="box quarter high"><div class="image cover bgtop" id="color-page-tall">&nbsp;</div></div>
-      <div class="box quarter"><div class="image cover" id="sidetabs">&nbsp;</div></div>
-      <div class="box quarter"><div class="image cover" id="overview-elccs">&nbsp;</div></div>
+      <div class="box half"><div class="image cover" id="sidetabs">&nbsp;</div></div>
+      <div class="box half"><div class="image cover" id="overview-elccs" style="background-position-y: -195px;">&nbsp;</div></div>
     </div>
   </main>
   <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
