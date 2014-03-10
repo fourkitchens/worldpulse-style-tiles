@@ -71,13 +71,18 @@
       text-transform: uppercase;
       font-size: 0.75em;
 
+      a {
+        color: darken(rgb(99, 165, 241), 5%);
+        @include text-shadow(1px 1px 0 rgba(0,0,0,0.5));
+      }
+
       .sep {
         color: #999;
       }
     }
 
     .heading {
-      background: image-url('dubai.jpg') no-repeat center bottom;
+      background: image-url('Cleared-Susan-Heinch.jpg') no-repeat center bottom;
       background-size: cover;
     }
 
@@ -133,7 +138,7 @@
       text-transform: uppercase;
       letter-spacing: 2px;
       color: white;
-      @include text-shadow(1px 1px 0 rgb(52, 36, 84));
+      @include text-shadow(1px 1px 0 rgba(0,0,0,0.5));
     }
 
     .date {
