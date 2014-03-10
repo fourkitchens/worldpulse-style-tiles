@@ -63,7 +63,7 @@
       <div class="box thq right no-height">
         <div class="content metropolis introduction">
           <div class="content-wrap">
-            <p><strong>The newspaper:</strong> visual impact created with large,
+            <p>Visual impact created with large,
               documentary photography, reinforced by sophisticated but simple
               typography and a subtle UI featuring soft-neutral boundaries with
               right-angles or minimally rounded borders to frame content and
@@ -110,7 +110,7 @@
       <div class="box thq right no-height">
         <div class="content park introduction">
           <div class="content-wrap">
-            <p><strong>The magazine:</strong> visual impact created by bright,
+            <p>Visual impact created by bright,
               near-primary colors with secondary accents, with more rounded
               components to evoke a more celebratory and light attitude while
               retaining a modern appeal, but avoiding the traps of the
@@ -161,15 +161,15 @@
       <div class="box thq right no-height">
         <div class="content heritage introduction">
           <div class="content-wrap">
-            <p><strong>The past, rejuvinated:</strong> World Pulse team members
+            <p>World Pulse team members
               are proud of and nostalgic for brand assets of the past and the
-              present. Leveraging the existing palette of rich, organic tertiary
-              colors which convey a non-specific international diversity and
-              combining it with more legible typography and modern layout
-              techniques freshens the look and feel without departing from
-              current standards. Reminiscent of the World Pulse website and
-              magazine (especially in coloring), with inspiration from
-              <a href="http://www.vitalvoices.org/">Vital Voices</a>,
+              present. Leveraging the current/existing palette of rich, organic
+              tertiary colors which convey a non-specific international diversity
+              and combining it with refreshed, more legible typography and modern
+              layout techniques freshens the look and feel without departing from
+              current standards. Reminiscent of the World Pulse website (especially
+              in color), with inspiration from
+              <a href="http://www.vitalvoices.org/">Vital Voices</a>, an
               <a href="http://www.globalpressjournal.com/">Global Press Journal</a>, and
 
 
