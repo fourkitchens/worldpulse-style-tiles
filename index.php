@@ -46,13 +46,11 @@
                   research, and has been discarded. Your photography will be
                   added back in later as we begin to work with specific
                   components.</li>
-                <li>The word &ldquo;Pulse&rdquo; was also removed from this set,
-                  even though it resonates strongly with Jensine and Corine.
-                  Rather than evoking a particular aesthetic quality, it represents
-                  the quest for a spirit/initiative or specific feature. Let's
-                  talk <em>Pulse</em> in the near future! In the meantime,
-                  I tried to avoid using branding-laden language on this
-                  mission of aesthetics.</li>
+                <li>I tried to avoid using branding-laden language on this mission
+                  of aesthetics and thus have removed the word &ldquo;Pulse&rdquo;
+                  from this set. Rather than evoking a particular aesthetic quality,
+                  it represents the quest for a spirit/initiative or specific
+                  feature. Let's talk <em>Pulse</em> in the near future!</li>
               </ul>
 
           </div>
