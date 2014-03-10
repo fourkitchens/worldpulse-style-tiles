@@ -20,7 +20,7 @@
   </header>
   <main>
     <div class="banner" id="tiles">
-      <h2>Style Tiles</h2>
+      <h2>Style Tiles <small>(Click any swatch for more information.)</small></h2>
     </div>
     <div class="set">
       <div class="box quarter"><div class="title"><span>Introduction</span></div></div>
@@ -100,9 +100,9 @@
       <div class="box eighth"><div class="adjective"><span>Confident</span></div></div>
       <div class="box eighth"><div class="adjective"><span>Exchange</span></div></div>
       <div class="box eighth"><div class="adjective"><span>Instigate</span></div></div>
-      <div class="box quarter"><div class="image cover bgleft" id="blogpost-1">&nbsp;</div></div>
-      <div class="box quarter"><div class="image cover" id="section-hero">&nbsp;</div></div>
-      <div class="box quarter"><div class="image cover" id="features">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover bgleft" id="blogpost-1" data-caption="Yale School of Management Insights: Blog Post">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" id="section-hero" data-caption="Global Press Journal: Section Hero">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" id="features" data-caption="Open Society Foundations: Features and Events, Home Page">&nbsp;</div></div>
     </div>
 
     <div class="set">
@@ -150,10 +150,10 @@
       <div class="box eighth"><div class="adjective"><span>Celebrate</span></div></div>
       <div class="box eighth"><div class="adjective"><span>Coexist</span></div></div>
       <div class="box eighth"><div class="adjective"><span>Vibrant</span></div></div>
-      <div class="box quarter"><div class="image cover" id="index">&nbsp;</div></div>
-      <div class="box quarter"><div class="image" style="background-size: 300%; background-position: -350px -300px;" id="dashboard-proto-flat">&nbsp;</div></div>
-      <div class="box quarter"><div class="image cover" style="background-position: -130px center;" id="inbox-flat">&nbsp;</div></div>
-      <div class="box quarter"><div class="image cover" id="overview-elccs">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" id="index" data-caption="24 Ways: Home Page">&nbsp;</div></div>
+      <div class="box quarter"><div class="image" style="background-size: 300%; background-position: -350px -300px;" id="dashboard-proto-flat" data-caption="Dashbaord Prototype">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" style="background-position: -130px center;" id="inbox-flat" data-caption="Inbox Prototype">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" id="overview-elccs" data-caption="Expeditionary Learning, Common Core Success: Program Overview">&nbsp;</div></div>
     </div>
 
     <div class="set">
@@ -204,9 +204,9 @@
       <div class="box eighth"><div class="adjective"><span>Warm</span></div></div>
       <div class="box eighth"><div class="adjective"><span>Diverse</span></div></div>
       <div class="box eighth"><div class="adjective"><span>Alive</span></div></div>
-      <div class="box quarter"><div class="image cover" id="megamenu">&nbsp;</div></div>
-      <div class="box quarter"><div class="image cover bgleft" id="popular">&nbsp;</div></div>
-      <div class="box quarter"><div class="image cover" id="event">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" id="megamenu" data-caption="Vital Voices: Megamenu overlapping Carousel">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover bgleft" id="popular" data-caption="Global Press Journal: right-rail Popular Content">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" id="event" data-caption="Vital Voices: Event Teaser">&nbsp;</div></div>
     </div>
 
     <div class="banner" id="adjs">
@@ -329,38 +329,38 @@
     </div>
 
     <div class="banner" id="swatches">
-      <h2>Component Swatches <small>from these sites and others</small></h2>
+      <h2>Component Swatches <small>from these sites and others. Click for information.</small></h2>
     </div>
 
     <div class="set">
-      <div class="box thq"><div class="image cover" id="footer">&nbsp;</div></div>
-      <div class="box quarter"><div class="image cover" id="profile-detail">&nbsp;</div></div>
-      <div class="box quarter high right"><div class="image cover bgtop" id="color-page-tall">&nbsp;</div></div>
-      <div class="box quarter right"><div class="image cover bgleft" id="blogpost-1">&nbsp;</div></div>
-      <div class="box half low"><div class="image cover" id="banners">&nbsp;</div></div>
-      <div class="box quarter low" style="clear: left;"><div class="image cover bgtop" id="carousel">&nbsp;</div></div>
-      <div class="box quarter low"><div class="image cover bgright" id="icons">&nbsp;</div></div>
-      <div class="box half"><div class="image cover bgtop" id="dashboard-detail">&nbsp;</div></div>
-      <div class="box quarter"><div class="image cover" id="features">&nbsp;</div></div>
-      <div class="box full low"><div class="image cover" id="header-2">&nbsp;</div></div>
-      <div class="box half high"><div class="image cover" id="editor">&nbsp;</div></div>
-      <div class="box half right"><div class="image cover" id="inbox-flat">&nbsp;</div></div>
-      <div class="box half right"><div class="image cover" id="dashboard-proto-flat">&nbsp;</div></div>
-      <div class="box quarter"><div class="image cover bgbottom" id="profile">&nbsp;</div></div>
-      <div class="box quarter"><div class="image cover" id="index">&nbsp;</div></div>
-      <div class="box half"><div class="image cover bgleft" id="blogpost-2">&nbsp;</div></div>
-      <div class="box half low"><div class="image" id="header-1">&nbsp;</div></div>
-      <div class="box quarter right"><div class="image cover" id="event">&nbsp;</div></div>
-      <div class="box quarter right"><div class="image cover" id="megamenu">&nbsp;</div></div>
-      <div class="box half high"><div class="image cover bgtop" id="section-hero">&nbsp;</div></div>
-      <div class="box half right"><div class="image cover bgright" id="steps">&nbsp;</div></div>
-      <div class="box half mid right"><div class="image cover bgleft" id="popular">&nbsp;</div></div>
-      <div class="box quarter high"><div class="image cover bgleft" id="signup">&nbsp;</div></div>
-      <div class="box quarter high"><div class="image" id="teaser-1">&nbsp;</div></div>
-      <div class="box quarter"><div class="image cover bgtop" id="teaser-2">&nbsp;</div></div>
-      <div class="box quarter"><div class="image cover bgleft" id="leaderboard">&nbsp;</div></div>
-      <div class="box half"><div class="image cover" id="sidetabs">&nbsp;</div></div>
-      <div class="box half"><div class="image cover" id="overview-elccs" style="background-position-y: -195px;">&nbsp;</div></div>
+      <div class="box thq"><div class="image cover" id="footer" data-caption="Global Press Journal: footer">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" id="profile-detail" data-caption="Facebook: User profile">&nbsp;</div></div>
+      <div class="box quarter high right"><div class="image cover bgtop" id="color-page-tall" data-caption="Prototype landing page in green with orange calls">&nbsp;</div></div>
+      <div class="box quarter right"><div class="image cover bgleft" id="blogpost-1" data-caption="Yale School of Management Insights: Blog Post">&nbsp;</div></div>
+      <div class="box half low"><div class="image cover" id="banners" data-caption="Chime for Change (pre-redesign): Banners">&nbsp;</div></div>
+      <div class="box quarter low" style="clear: left;"><div class="image cover bgtop" id="carousel" data-caption="Global Press Journal: carousel tabs">&nbsp;</div></div>
+      <div class="box quarter low"><div class="image cover bgright" id="icons" data-caption="Women's Economic Empowerment: main navigation iconography">&nbsp;</div></div>
+      <div class="box half"><div class="image cover bgtop" id="dashboard-detail" data-caption="Wordpress.com, standard site dashboard">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" id="features" data-caption="Open Society Foundations: Features and Events, Home Page">&nbsp;</div></div>
+      <div class="box full low"><div class="image cover" id="header-2" data-caption="Global Press Journal: region-based navigation">&nbsp;</div></div>
+      <div class="box half high"><div class="image cover" id="editor"  data-caption="Prototype editor">&nbsp;</div></div>
+      <div class="box half right"><div class="image cover" id="inbox-flat" data-caption="Prototype inbox">&nbsp;</div></div>
+      <div class="box half right"><div class="image cover" id="dashboard-proto-flat" data-caption="Prototype social dashboard">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover bgbottom" id="profile" data-caption="Catapult.org: profile avatar/block">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" id="index" data-caption="24 Ways: index">&nbsp;</div></div>
+      <div class="box half"><div class="image cover bgleft" id="blogpost-2" data-caption="Smashing Magazine: blog post title, metadata, and navigation">&nbsp;</div></div>
+      <div class="box half low"><div class="image" id="header-1" data-caption="New York Times: header and navigation">&nbsp;</div></div>
+      <div class="box quarter right"><div class="image cover" id="event" data-caption="Vital Voices: Event Teaser">&nbsp;</div></div>
+      <div class="box quarter right"><div class="image cover" id="megamenu"data-caption="Vital Voices: Megamenu overlapping Carousel">&nbsp;</div></div>
+      <div class="box half high"><div class="image cover bgtop" id="section-hero" data-caption="Global Press Journal: Section Hero">&nbsp;</div></div>
+      <div class="box half right"><div class="image cover bgright" id="steps" data-caption="Chime for Change (pre-redesign): CTA steps">&nbsp;</div></div>
+      <div class="box half mid right"><div class="image cover bgleft" id="popular" data-caption="Global Press Journal: right-rail Popular Content">&nbsp;</div></div>
+      <div class="box quarter high"><div class="image cover bgleft" id="signup" data-caption="Facebook: simple sign-up form">&nbsp;</div></div>
+      <div class="box quarter high"><div class="image" id="teaser-1" data-caption="Catapult.org: Program/Inititative overview and CTA">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover bgtop" id="teaser-2" data-caption="Chime for Change (pre-redesign): Story teaser">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover bgleft" id="leaderboard" data-caption="Yale School of Management Insights: article masthead photo">&nbsp;</div></div>
+      <div class="box half"><div class="image cover" id="sidetabs" data-caption="Prototype left-rail navigation with colored components">&nbsp;</div></div>
+      <div class="box half"><div class="image cover" id="overview-elccs" style="background-position-y: -195px;" data-caption="Expeditionary Learning, Common Core Success: Program Overview">&nbsp;</div></div>
     </div>
   </main>
   <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
@@ -368,6 +368,12 @@
     (jQuery(document).ready(function($){
       $('.color').click(function(){
         window.prompt('Color as RGB', $(this).css('background-color'));
+      });
+
+      $('.image').click(function(){
+        if ($(this).data('caption').length) {
+          alert($(this).data('caption'));
+        }
       });
 
       $('header ul a').click(function(e){
