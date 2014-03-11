@@ -62,56 +62,6 @@ header ul a:hover { color: #0066FF; }
 .box > div.text { line-height: 1.25; }
 .box > div.text > span { left: 10px; right: 10px; }
 
-#site-c { background-image: url('/gfx/site-c.png?1392336988'); }
-
-#site-bg { background-image: url('/gfx/site-bg.png?1392336811'); }
-
-#site-cfc { background-image: url('/gfx/site-cfc.png?1392336931'); }
-
-#site-ew { background-image: url('/gfx/site-ew.png?1392337024'); }
-
-#site-fbh { background-image: url('/gfx/site-fbh.png?1392337109'); }
-
-#site-gpi { background-image: url('/gfx/site-gpi.png?1392336892'); }
-
-#site-gpj { background-image: url('/gfx/site-gpj.png?1392336863'); }
-
-#site-osf { background-image: url('/gfx/site-osf.png?1392336767'); }
-
-#site-times { background-image: url('/gfx/site-times.png?1392336784'); }
-
-#site-vv { background-image: url('/gfx/site-vv.png?1392336834'); }
-
-#site-c, #site-bg, #site-cfc, #site-ew, #site-fbh, #site-gpi, #site-gpj, #site-osf, #site-times, #site-vv { background-position: top center; background-color: white; }
-
-#chart-01-illustrative { background-color: white; background-image: url('/gfx/charts/01-illustrative.png?1392415665'); background-position: 15px center; background-size: auto 95%; }
-
-#chart-02-photographic { background-color: white; background-image: url('/gfx/charts/02-photographic.png?1392415677'); background-position: 15px center; background-size: auto 95%; }
-
-#chart-03-bright { background-color: white; background-image: url('/gfx/charts/03-bright.png?1392415692'); background-size: contain; }
-.quarter #chart-03-bright { background-size: 95% auto; }
-
-#chart-04-bold { background-color: white; background-image: url('/gfx/charts/04-bold.png?1392415699'); background-size: contain; }
-.quarter #chart-04-bold { background-size: 95% auto; }
-
-#chart-05-clean { background-color: white; background-image: url('/gfx/charts/05-clean.png?1392415705'); background-size: contain; }
-.quarter #chart-05-clean { background-size: 95% auto; }
-
-#chart-06-confident { background-color: white; background-image: url('/gfx/charts/06-confident.png?1392415713'); background-size: contain; }
-.quarter #chart-06-confident { background-size: 95% auto; }
-
-#chart-07-corporate { background-color: white; background-image: url('/gfx/charts/07-corporate.png?1392415721'); background-size: contain; }
-.quarter #chart-07-corporate { background-size: 95% auto; }
-
-#chart-08-minimal { background-color: white; background-image: url('/gfx/charts/08-minimal.png?1392415884'); background-size: contain; }
-.quarter #chart-08-minimal { background-size: 95% auto; }
-
-#chart-09-trendy { background-color: white; background-image: url('/gfx/charts/09-trendy.png?1392415895'); background-size: contain; }
-.quarter #chart-09-trendy { background-size: 95% auto; }
-
-#chart-10-flat { background-color: white; background-image: url('/gfx/charts/10-flat.png?1392418996'); background-size: contain; }
-.quarter #chart-10-flat { background-size: 95% auto; }
-
 #banners { background-color: white; background-image: url('/gfx/swatches/banners.png?1392698329'); background-size: contain; }
 #banners.cover { background-size: cover; }
 #banners.bgtop { background-position: center top; }

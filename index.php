@@ -12,8 +12,6 @@
     <h1>World Pulse</h1>
     <ul>
       <li><a href="#tiles">Style Tiles</a></li>
-      <li><a href="#adjs">Adjective Survey</a></li>
-      <li><a href="#phrases">Guiding Phrases</a></li>
       <li><a href="#swatches">Component Swatches</a></li>
     </ul>
   </header>
@@ -201,125 +199,6 @@
       <div class="box quarter"><div class="image cover" id="megamenu" data-caption="Vital Voices: Megamenu overlapping Carousel">&nbsp;</div></div>
       <div class="box quarter"><div class="image cover bgleft" id="popular" data-caption="Global Press Journal: right-rail Popular Content">&nbsp;</div></div>
       <div class="box quarter"><div class="image cover" id="event" data-caption="Vital Voices: Event Teaser">&nbsp;</div></div>
-    </div>
-
-    <div class="banner" id="adjs">
-      <h2>Adjectives Survey <small>&ldquo;How do you feel any of these words describe your vision for the site?&rdquo;</small></h2>
-    </div>
-
-    <div class="set">
-      <div class="box quarter"><div class="title"><span>Illustrative <br /><small>(5 = Yes, Strongly)</small></span></div></div>
-      <div class="box quarter"><div class="image" id="chart-01-illustrative">&nbsp;</div></div>
-
-      <div class="box quarter"><div class="title"><span>Photographic <br /><small>(5 = Yes, Strongly)</small></span></div></div>
-      <div class="box quarter"><div class="image" id="chart-02-photographic">&nbsp;</div></div>
-
-      <div class="box half low"><div class="text"><span style="margin-top: -1.875em;">
-        In the workshop, many felt that &ldquo;illustrative&rdquo; meant iconographic
-        or explanatory, which was identified as a high priority, mirroring comments
-        in user interviews.
-      </span></div></div>
-      <div class="box half low"><div class="text"><span>
-        &ldquo;Photography is very important to our brand and our users.&rdquo;
-      </span></div></div>
-
-      <div class="box quarter"><div class="title"><span>Bright</span></div></div>
-      <div class="box quarter"><div class="image" id="chart-03-bright">&nbsp;</div></div>
-
-      <div class="box quarter"><div class="title"><span>Bold</span></div></div>
-      <div class="box quarter"><div class="image" id="chart-04-bold">&nbsp;</div></div>
-
-      <div class="box quarter"><div class="title"><span>Clean</span></div></div>
-      <div class="box quarter"><div class="image" id="chart-05-clean">&nbsp;</div></div>
-
-      <div class="box quarter"><div class="title"><span>Confident</span></div></div>
-      <div class="box quarter"><div class="image" id="chart-06-confident">&nbsp;</div></div>
-
-      <div class="box half right"><div class="image" id="chart-07-corporate">&nbsp;</div></div>
-      <div class="box half low"><div class="title"><span>Corporate</span></div></div>
-      <div class="box half low"><div class="text"><span style="margin-top: -1.875em;">
-        Corporate isn't the same as Professional. Needs to be friendly for new
-        users; safe and accepting, not upsetting. Additionally, avoid "Foundation"-esque!
-      </span></div></div>
-
-      <div class="box half right"><div class="image" id="chart-08-minimal">&nbsp;</div></div>
-      <div class="box half low"><div class="title"><span>Minimal</span></div></div>
-      <div class="box half low"><div class="text"><span style="margin-top: -3.125em; font-size: 0.875em;">
-        &ldquo;I ranked this highly because I interpreted it as &lsquo;simple.&rsquo;
-        Our website is busy and overwhelming; hard to navigate it clearly. I want
-        it to be clear how people can engage. For this, minimal choices, at least
-        at the front where you enter, but keep a warmer/dynamic internal. &mdash;
-        Minimal but friendly.&rdquo; &bull; &ldquo;Not stainless steel.&rdquo;
-      </span></div></div>
-
-      <div class="box half right"><div class="image" id="chart-09-trendy">&nbsp;</div></div>
-      <div class="box half low"><div class="title"><span>Trendy</span></div></div>
-      <div class="box half low"><div class="text"><span style="margin-top: -1.75em;">
-        &ldquo;Fresh and compatible with what&rsquo;s going on, but not &lsquo;trendy&rsquo;.&rdquo;
-        &bull; &ldquo;Trendy <em>functionally</em>; our website should work like things they're used to using.&rdquo;
-        &bull; Trendy is rarely cross-cultural.
-      </span></div></div>
-
-      <div class="box half right"><div class="image" id="chart-10-flat">&nbsp;</div></div>
-      <div class="box half low"><div class="title"><span>Flat</span></div></div>
-      <div class="box half low"><div class="text"><span style="margin-top: -2.5em;">
-        &ldquo;Very clear communication of the function is necessary; user base is
-        largely non-technical.&rdquo; &bull; &ldquo;&lsquo;Flat&rsquo; as a trend
-        is completely unimportant here.&rdquo; &bull; Only to the extent that the
-        site needs to be light and load quickly and be clean/intuitive.
-      </span></div></div>
-    </div>
-
-    <div class="banner" id="phrases">
-      <h2>Guiding Phrases <small>from survey discussion with WP office</small></h2>
-    </div>
-
-    <div class="set">
-      <div class="box full low">
-        <div class="text"><span>No one speaks for me; I speak for myself.</span></div>
-      </div>
-      <div class="box half low">
-        <div class="text"><span style="margin-top -1.25em">Spicy for when you want it, but comfort food for when you need it.</span></div>
-      </div>
-      <div class="box half low">
-        <div class="text"><span style="margin-top -1.25em">Providing encouragement, support, and mentorship; but who also receiving the same.</span></div>
-      </div>
-      <div class="box quarter low">
-        <div class="text"><span style="margin-top: -1.125em;">Corners for intimate conversations</span></div>
-      </div>
-      <div class="box quarter low">
-        <div class="text"><span style="margin-top: -1.75em;">Meryl Streep once said, &ldquo;I&rsquo;m not fashionable; I have a style.&rdquo;</span></div>
-      </div>
-      <div class="box quarter low">
-        <div class="text"><span style="margin-top: -1.125em;">Audrey Hepbern. Simple and elegant.</span></div>
-      </div>
-      <div class="box quarter low">
-        <div class="text"><span style="margin-top: -1.125em;">Icons ease navigation and understanding.</span></div>
-      </div>
-      <div class="box eighth">
-        <div class="adjective"><span>Welcoming</span></div>
-      </div>
-      <div class="box eighth">
-        <div class="adjective"><span>Grassrootsy</span></div>
-      </div>
-      <div class="box eighth">
-        <div class="adjective"><span>Professional</span></div>
-      </div>
-      <div class="box eighth">
-        <div class="adjective"><span>Illustrative</span></div>
-      </div>
-      <div class="box eighth">
-        <div class="adjective"><span>Photographic</span></div>
-      </div>
-      <div class="box eighth">
-        <div class="adjective"><span>Warm</span></div>
-      </div>
-      <div class="box eighth">
-        <div class="adjective"><span>Unique</span></div>
-      </div>
-      <div class="box eighth">
-        <div class="adjective"><span>Clean</span></div>
-      </div>
     </div>
 
     <div class="banner" id="swatches">
