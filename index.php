@@ -106,57 +106,6 @@
     </div>
 
     <div class="set">
-      <div class="box quarter"><div class="title"><span>Community Park<br /><small>Source Sans Pro &amp; Gotham</small></span></div></div>
-      <div class="box thq right no-height">
-        <div class="content park introduction">
-          <div class="content-wrap">
-            <p>Visual impact created by bright,
-              near-primary colors with secondary accents, with more rounded
-              components to evoke a more celebratory and light attitude while
-              retaining a modern appeal, but avoiding the traps of the
-              &ldquo;flat&rdquo; aesthetic trend. Reminiscent of the World Pulse
-              magazine (print editions), with inspiration from
-              <a href="http://www.empowerwomen.org/">Women's Economic Empowerment</a>,
-              <a href="http://catapult.org">Catapult.org</a>,
-              <a href="http://commoncoresuccess.elschools.org/curriculum/grade-7/">Expeditionary Learning: Common Core Success</a>,
-              <a href="http://www.microsoft.com/en-us/default.aspx">Microsoft</a>,
-              <a href="http://www.etsy.com">Etsy</a>, and
-              <a href="http://www.smashingmagazine.com/">Smashing Magazine</a>.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="box thq no-height right"><div class="content park">
-        <?php
-          $user = new stdClass();
-          $user->avatar = 'https://s3.amazonaws.com/uifaces/faces/twitter/reetajayendra/128.jpg';
-          $user->name = 'Rita';
-          $user->flag = 'flags-a/Colombia.png';
-
-          $date = 'j F Y';
-
-          $comment = new stdClass();
-          $comment->name = 'Aileen';
-          $comment->avatar = 'https://s3.amazonaws.com/uifaces/faces/twitter/aiiaiiaii/128.jpg';
-
-          include('copy.inc.php');
-        ?>
-      </div></div>
-
-      <div class="box eighth reg"><div class="color" style="background-color: #e51f30;">&nbsp;</div></div>
-      <div class="box eighth"><div class="color" style="background-color: #2fa9d2;">&nbsp;</div></div>
-      <div class="box eighth"><div class="color" style="background-color: #41991e;">&nbsp;</div></div>
-      <div class="box eighth"><div class="adjective"><span>Rejuvenate</span></div></div>
-      <div class="box eighth"><div class="adjective"><span>Celebrate</span></div></div>
-      <div class="box eighth"><div class="adjective"><span>Coexist</span></div></div>
-      <div class="box eighth"><div class="adjective"><span>Vibrant</span></div></div>
-      <div class="box quarter"><div class="image cover" id="index" data-caption="24 Ways: Home Page">&nbsp;</div></div>
-      <div class="box quarter"><div class="image" style="background-size: 300%; background-position: -350px -300px;" id="dashboard-proto-flat" data-caption="Dashbaord Prototype">&nbsp;</div></div>
-      <div class="box quarter"><div class="image cover" style="background-position: -130px center;" id="inbox-flat" data-caption="Inbox Prototype">&nbsp;</div></div>
-      <div class="box quarter"><div class="image cover" id="overview-elccs" data-caption="Expeditionary Learning, Common Core Success: Program Overview">&nbsp;</div></div>
-    </div>
-
-    <div class="set">
       <div class="box quarter"><div class="title"><span>Heritage<br /><small>Whitney &amp; Gotham &amp; Archer</small></span></div></div>
       <div class="box thq right no-height">
         <div class="content heritage introduction">
