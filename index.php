@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>World Pulse: Style Tiles</title>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300|Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css' />
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css' />
   <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6795652/718384/css/fonts.css" />
   <link href="css/main.css" rel="stylesheet" type="text/css" />
 </head>
@@ -27,12 +26,7 @@
       <div class="box thq right no-height">
         <div class="content introduction">
           <div class="content-wrap">
-            <p>These are still a working draft following the feedback from the
-              original mood boards. <em>Metropolis</em> was noted as a strong
-              possibility, and <em>Community Part</em> was not ruled out.
-              Therefore, those have been tweaked, and used to create an initial
-              style of a journal post. Additionally, I built another style tile
-              using the existing WP palette. <em>This is not a finished design,</em>
+              <em>This is not a finished design,</em>
               merely one possible vision when combining the Journal wireframes
               with some typography and color ideas; it's a taste. Two things to
               note specifically:</p>
@@ -103,6 +97,57 @@
       <div class="box quarter"><div class="image cover bgleft" id="blogpost-1" data-caption="Yale School of Management Insights: Blog Post">&nbsp;</div></div>
       <div class="box quarter"><div class="image cover" id="section-hero" data-caption="Global Press Journal: Section Hero">&nbsp;</div></div>
       <div class="box quarter"><div class="image cover" id="features" data-caption="Open Society Foundations: Features and Events, Home Page">&nbsp;</div></div>
+    </div>
+
+    <div class="set">
+      <div class="box quarter"><div class="title"><span>Marrakesh<br /><small>Verlag &amp; Gotham &amp; Archer</small></span></div></div>
+      <div class="box thq right no-height">
+        <div class="content marrakesh introduction">
+          <div class="content-wrap">
+            <p>Visual impact created by bold, secondary colors with isolated
+              areas to visually group content, accentuating titles and photography.
+              Strong horizontal borders connote confidence, but retain an
+              approachability from the more welcoming palette. Reminiscent of the
+              World Pulse magazine (print editions), with inspiration from
+              <a href="http://catapult.org">Catapult.org</a>,
+              <a href="http://www.opensocietyfoundations.org/">Open Society Foundations</a>,
+              <a href="http://www.smashingmagazine.com/">Smashing Magazine</a>,
+              <a href="http://www.npr.org/sections/us/">National Public Radio</a>, and
+              <a href="http://www.globalpressjournal.com/">Global Press Journal</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box thq no-height right"><div class="content marrakesh">
+        <?php
+          $user = new stdClass();
+          $user->avatar = 'https://s3.amazonaws.com/uifaces/faces/twitter/raquelwilson/128.jpg';
+          $user->name = 'Raquel';
+          $user->flag = 'flags-a/Guinea.png';
+
+          $date = 'j F Y';
+
+          $comment = new stdClass();
+          $comment->name = 'Aileen';
+          $comment->avatar = 'https://s3.amazonaws.com/uifaces/faces/twitter/aiiaiiaii/128.jpg';
+
+          include('copy.inc.php');
+        ?>
+        <div style="height: 250px;"><!-- I'm here to make this container long enough to keep the UI swatches in line in the left-rail --></div>
+      </div></div>
+
+      <div class="box eighth"><div class="color" style="background-color: #5e2c58;">&nbsp;</div></div>
+      <div class="box eighth"><div class="color" style="background-color: #94101e;">&nbsp;</div></div>
+      <div class="box eighth"><div class="color" style="background-color: #c2611b;">&nbsp;</div></div>
+      <div class="box eighth"><div class="color" style="background-color: #95cf4b;">&nbsp;</div></div>
+      <div class="box eighth"><div class="adjective"><span>Grassrootsy</span></div></div>
+      <div class="box eighth"><div class="adjective"><span>Unique</span></div></div>
+      <div class="box eighth"><div class="adjective"><span>Vibrant</span></div></div>
+      <div class="box eighth"><div class="adjective"><span>Celebrate</span></div></div>
+      <div class="box quarter"><div class="image cover" id="index" data-caption="24 Ways: Home Page">&nbsp;</div></div>
+      <div class="box quarter"><div class="image" id="hg1-tabloid" data-caption="Tabloid / Landing Page Prototype">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" id="features" data-caption="Open Society Foundations: Features and Events, Home Page">&nbsp;</div></div>
+      <div class="box quarter"><div class="image cover" id="inbox-flat" data-caption="Inbox Prototype">&nbsp;</div></div>
     </div>
 
     <div class="set">
@@ -309,7 +354,8 @@
       <div class="box quarter"><div class="image cover bgtop" id="teaser-2" data-caption="Chime for Change (pre-redesign): Story teaser">&nbsp;</div></div>
       <div class="box quarter"><div class="image cover bgleft" id="leaderboard" data-caption="Yale School of Management Insights: article masthead photo">&nbsp;</div></div>
       <div class="box half"><div class="image cover" id="sidetabs" data-caption="Prototype left-rail navigation with colored components">&nbsp;</div></div>
-      <div class="box half"><div class="image cover" id="overview-elccs" style="background-position-y: -195px;" data-caption="Expeditionary Learning, Common Core Success: Program Overview">&nbsp;</div></div>
+      <div class="box quarter"><div class="image" id="hg1-tabloid" data-caption="Tabloid / Landing Page Prototype">&nbsp;</div></div>
+      <div class="box quarter"><div class="image" id="hg2-tabloid" data-caption="Tabloid / Landing Page Prototype">&nbsp;</div></div>
     </div>
   </main>
   <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>

@@ -315,6 +315,20 @@ header ul a:hover { color: #0066FF; }
 #overview-elccs.bgleft { background-position: left center; }
 #overview-elccs.bgright { background-position: right center; }
 
+#hg1-tabloid { background-color: white; background-image: url('/gfx/swatches/hg1-tabloid.png?1394551994'); background-size: contain; }
+#hg1-tabloid.cover { background-size: cover; }
+#hg1-tabloid.bgtop { background-position: center top; }
+#hg1-tabloid.bgbottom { background-position: center bottom; }
+#hg1-tabloid.bgleft { background-position: left center; }
+#hg1-tabloid.bgright { background-position: right center; }
+
+#hg2-tabloid { background-color: white; background-image: url('/gfx/swatches/hg2-tabloid.png?1394552006'); background-size: contain; }
+#hg2-tabloid.cover { background-size: cover; }
+#hg2-tabloid.bgtop { background-position: center top; }
+#hg2-tabloid.bgbottom { background-position: center bottom; }
+#hg2-tabloid.bgleft { background-position: left center; }
+#hg2-tabloid.bgright { background-position: right center; }
+
 body { background: #e0e0e0; font-family: 'Open Sans'; }
 body.transition { -webkit-transition: background-color 1s ease; -moz-transition: background-color 1s ease; -o-transition: background-color 1s ease; transition: background-color 1s ease; }
 
@@ -399,7 +413,7 @@ em { font-style: italic; }
 .content-wrap .comment .avatar { float: left; margin-right: 15px; }
 .content-wrap .comment .avatar img { display: block; }
 
-.content { background: white; /******************************************************************************* METROPOLIS                                                                  * ******************************************************************************/ /******************************************************************************* HERITAGE                                                                    * ******************************************************************************/ }
+.content { background: white; /******************************************************************************* METROPOLIS                                                                  * ******************************************************************************/ /******************************************************************************* MARRAKESH                                                                   * ******************************************************************************/ /******************************************************************************* HERITAGE                                                                    * ******************************************************************************/ }
 .content.introduction { padding: 25px; }
 .content.introduction p:last-child { margin-bottom: 0; }
 .content.metropolis { color: #555; font-family: 'Whitney SSm A', 'Whitney SSm B'; }
@@ -430,6 +444,39 @@ em { font-style: italic; }
 .content.metropolis .author .flag { position: absolute; top: 105px; right: 5px; }
 .content.metropolis .author .flag img { display: block; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; border: 2px solid white; max-height: 18px; }
 .content.metropolis .author .name { display: inline; font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 400; font-style: normal; text-transform: uppercase; font-size: 18px; }
+.content.marrakesh { color: #544; font-family: 'Verlag A', 'Verlag B'; font-weight: 300; }
+.content.marrakesh h1, .content.marrakesh h2 { font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 400; color: #94101e; }
+.content.marrakesh h3, .content.marrakesh h4, .content.marrakesh h5, .content.marrakesh h6 { font-family: 'Archer SSm A', 'Archer SSm B'; font-style: italic; font-weight: 600; color: #94101e; }
+.content.marrakesh a { color: #6ea22b; text-decoration: none; }
+.content.marrakesh a:hover { text-decoration: underline; }
+.content.marrakesh a:visited, .content.marrakesh a.visited { color: #813c79; }
+.content.marrakesh blockquote { position: relative; quotes: "\201C" "\201D" "\2018" "\2019"; border-left: 0; padding: 0 40px; margin: 2em 0; }
+.content.marrakesh blockquote:before, .content.marrakesh blockquote:after, .content.marrakesh blockquote cite { font-family: 'Archer SSm A', 'Archer SSm B'; font-style: italic; font-weight: 500; color: #c2611b; }
+.content.marrakesh blockquote:before, .content.marrakesh blockquote:after { position: absolute; font-size: 4em; line-height: 0; }
+.content.marrakesh blockquote:before { top: 0.25em; left: 0; content: open-quote; }
+.content.marrakesh blockquote:after { bottom: 0; right: 0; content: close-quote; }
+.content.marrakesh .heading { position: relative; background: #5e2c58; border-bottom: 4px solid #3b1c37; }
+.content.marrakesh .heading .date { position: absolute; top: 15px; right: 15px; color: white; font-style: italic; }
+.content.marrakesh .heading h1 { color: #95cf4b; margin: 0; }
+.content.marrakesh .breadcrumb { position: relative; display: inline-block; top: -25px; padding: 15px 15px 12px 15px; background: #7cb631; border-bottom: 3px solid #608e26; }
+.content.marrakesh .breadcrumb a { color: white; }
+.content.marrakesh .breadcrumb .sep { color: rgba(255, 255, 255, 0.5); }
+.content.marrakesh .author { background: #fdfcfb; position: relative; padding: 0 0 10px 0; border-top: 8px solid #94101e; -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25); -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25); box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25); margin-left: 10px; line-height: 1; text-align: center; }
+.content.marrakesh .author .avatar { margin-bottom: 0.5em; }
+.content.marrakesh .author .avatar img { display: block; }
+.content.marrakesh .author .flag { position: absolute; top: 108px; right: 0; }
+.content.marrakesh .author .flag img { display: block; -webkit-border-radius: 3px 0 0 0; -moz-border-radius: 3px 0 0 0; -ms-border-radius: 3px 0 0 0; -o-border-radius: 3px 0 0 0; border-radius: 3px 0 0 0; background: white; border-top: 2px solid white; border-left: 2px solid white; max-height: 20px; }
+.content.marrakesh .author .name { font-weight: 700; font-size: 18px; }
+.content.marrakesh .author .name a { color: #94101e; }
+.content.marrakesh .comments { background: #fdfcfb; padding: 25px; border-top: 5px solid #c2611b; }
+.content.marrakesh .comments h2:first-child { color: #c2611b; margin-top: 0; }
+.content.marrakesh .comments .avatar { max-width: 96px; border-top: 7px solid #c2611b; -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25); -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25); box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25); }
+.content.marrakesh .comments .avatar img { display: block; }
+.content.marrakesh .comments .comment-header { margin-bottom: 1em; }
+.content.marrakesh .comments .comment-header h3 { margin-bottom: 0; color: #c2611b; }
+.content.marrakesh .comments .comment-header .meta { font-size: 0.875em; font-style: italic; color: #c2611b; }
+.content.marrakesh .comments .comment-header .by { color: rgba(194, 97, 27, 0.5); }
+.content.marrakesh .comments .comment-text { overflow: hidden; }
 .content.heritage { color: #334; font-family: 'Whitney SSm A', 'Whitney SSm B'; padding-left: 25px; padding-right: 25px; }
 .content.heritage h1, .content.heritage h2, .content.heritage h3, .content.heritage h4, .content.heritage h5, .content.heritage h6 { font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 400; color: #6e1d24; }
 .content.heritage a { color: #5b87a8; text-decoration: none; }
@@ -447,7 +494,7 @@ em { font-style: italic; }
 .content.heritage .author .name { display: inline; font-family: 'Archer SSm A', 'Archer SSm B'; font-weight: 600; font-style: italic; font-size: 18px; }
 .content.heritage .body, .content.heritage .heading { padding-left: 0; padding-right: 0; }
 .content.heritage .heading { border-bottom: 1px solid #f4f4f4; }
-.content.heritage .heading h1 { color: #6e1d24; font-family: 'Archer SSm A', 'Archer SSm B'; font-weight: 600; font-style: italic; }
+.content.heritage .heading h1 { text-align: center; color: #6e1d24; font-family: 'Archer SSm A', 'Archer SSm B'; font-weight: 600; font-style: italic; }
 .content.heritage .heading .date { text-align: center; font-family: 'Archer SSm A', 'Archer SSm B'; font-weight: 500; font-style: italic; }
 .content.heritage .heading .breadcrumb a { font-style: italic; }
 .content.heritage .heading .breadcrumb .sep { color: #6b8295; }

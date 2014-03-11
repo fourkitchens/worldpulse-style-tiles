@@ -202,6 +202,188 @@
   }
 
 /*******************************************************************************
+ * MARRAKESH                                                                   *
+ *******************************************************************************/
+
+  &.marrakesh {
+    color: #544;
+    font-family: 'Verlag A', 'Verlag B';
+    font-weight: 300;
+
+    #{headings(1,2)} {
+      font-family: 'Gotham SSm A', 'Gotham SSm B';
+      font-weight: 400;
+      color: rgb(148, 16, 30);
+    }
+
+    #{headings(3,6)} {
+      font-family: 'Archer SSm A', 'Archer SSm B';
+      font-style: italic;
+      font-weight: 600;
+      color: rgb(148, 16, 30);
+    }
+
+    a {
+      color: darken(rgb(149, 207, 75), 15%);
+      text-decoration: none;
+
+      &:hover { text-decoration: underline; }
+      &:visited, &.visited { color: lighten(rgb(94, 44, 88), 10%); }
+    }
+
+    blockquote {
+      position: relative;
+
+      quotes: "\201C""\201D""\2018""\2019";
+      border-left: 0;
+      padding: 0 40px;
+      margin: 2em 0;
+
+      &:before, &:after, cite {
+        font-family: 'Archer SSm A', 'Archer SSm B';
+        font-style: italic;
+        font-weight: 500;
+        color: rgb(194, 97, 27);
+      }
+
+      &:before, &:after {
+        position: absolute;
+        font-size: 4em;
+        line-height: 0;
+      }
+
+      &:before {
+        top: 0.25em;
+        left: 0;
+        content: open-quote;
+      }
+
+      &:after {
+        bottom: 0;
+        right: 0;
+        content: close-quote;
+      }
+    }
+
+    .heading {
+      position: relative;
+      background: rgb(94, 44, 88);
+      border-bottom: 4px solid darken(rgb(94, 44, 88), 10%);
+
+      .date {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        color: white;
+        font-style: italic;
+      }
+
+      h1 {
+        color: rgb(149, 207, 75);
+        margin: 0;
+      }
+    }
+
+    .breadcrumb {
+      position: relative;
+      display: inline-block;
+      top: -25px;
+      padding: 15px 15px 12px 15px;
+
+      background: darken(rgb(149, 207, 75), 10%);
+      // @include border-radius(0 0 3px 3px);
+      border-bottom: 3px solid darken(rgb(149, 207, 75), 20%);
+
+      a { color: white; }
+      .sep { color: rgba(255,255,255,0.5); }
+    }
+
+
+    .author {
+      background: #fdfcfb;
+      position: relative;
+
+      padding: 0 0 10px 0;
+      border-top: 8px solid rgb(148, 16, 30);
+      @include box-shadow(1px 1px 1px rgba(0,0,0,0.25));
+
+      margin-left: 10px;
+      line-height: 1;
+      text-align: center;
+
+      .avatar {
+        margin-bottom: 0.5em;
+        img { display: block; }
+      }
+
+      .flag {
+        position: absolute;
+        top: (128px - 20);
+        right: 0;
+
+        img {
+          display: block;
+          @include border-radius(3px 0 0 0);
+          background: white; // These prototype images have rounded transparent corners... :(
+          border-top: 2px solid white;
+          border-left: 2px solid white;
+          max-height: 20px;
+        }
+      }
+
+      .name {
+        font-weight: 700;
+        font-size: 18px;
+        a { color: rgb(148, 16, 30); }
+      }
+    }
+
+    .comments {
+      background: #fdfcfb;
+      padding: 25px;
+      border-top: 5px solid rgb(194, 97, 27);
+
+      h2:first-child {
+        color: rgb(194, 97, 27);
+        margin-top: 0;
+      }
+
+      .avatar {
+        max-width: 96px;
+        border-top: 7px solid rgb(194, 97, 27);
+        @include box-shadow(1px 1px 1px rgba(0,0,0,0.25));
+        img { display: block; }
+      }
+
+      .comment-header {
+        margin-bottom: 1em;
+
+        h3 {
+          margin-bottom: 0;
+          color: rgb(194, 97, 27);
+        }
+
+        .meta {
+          font-size: 0.875em;
+          font-style: italic;
+          color: rgb(194, 97, 27);
+        }
+
+        .by {
+          color: rgba(194, 97, 27, 0.5);
+        }
+      }
+
+      .comment-text {
+        overflow: hidden;
+      }
+
+    }
+
+  }
+
+
+/*******************************************************************************
  * HERITAGE                                                                    *
  *******************************************************************************/
 
@@ -296,6 +478,7 @@
       border-bottom: 1px solid #f4f4f4;
 
       h1 {
+        text-align: center;
         color: rgb(110, 29, 36);
         font-family: 'Archer SSm A', 'Archer SSm B'; font-weight: 600; font-style: italic;
       }
