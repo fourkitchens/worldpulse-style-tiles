@@ -5,26 +5,5 @@
   #{$swatch-id} {
     background-color: white;
     background-image: image-url("swatches/" + $swatch-img);
-    background-size: contain;
-
-    &.cover {
-      background-size: cover;
-    }
-
-    &.bgtop {
-      background-position: center top;
-    }
-
-    &.bgbottom {
-      background-position: center bottom;
-    }
-
-    &.bgleft {
-      background-position: left center;
-    }
-
-    &.bgright {
-      background-position: right center;
-    }
   }
 }

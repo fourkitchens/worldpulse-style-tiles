@@ -79,9 +79,29 @@
     }
 
     &.image {
-      background-size: cover;
+      background-size: contain;
       background-position: center center;
       background-repeat: no-repeat;
+
+      &.cover {
+        background-size: cover;
+      }
+
+      &.bgtop {
+        background-position: center top;
+      }
+
+      &.bgbottom {
+        background-position: center bottom;
+      }
+
+      &.bgleft {
+        background-position: left center;
+      }
+
+      &.bgright {
+        background-position: right center;
+      }
     }
 
     &.content {
