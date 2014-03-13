@@ -15,7 +15,7 @@
 
     <div class="author">
       <div class="avatar"><img src="<?=$user->avatar ?>" alt="<?=$user->name ?>" /></div>
-      <div class="flag"><img src="/gfx/<?=$user->flag ?>" alt="" /></div>
+      <div class="flag"><img src="gfx/<?=$user->flag ?>" alt="" /></div>
       <div class="name"><a href="#"><?=$user->name ?></a></div>
     </div>
 
